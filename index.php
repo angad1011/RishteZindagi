@@ -1,4 +1,6 @@
 <?php
+
+
     include_once 'databaseConn.php';
     include_once './lib/requestHandler.php';
     $DatabaseCo = new DatabaseConn();
@@ -116,8 +118,8 @@
                                     </li>
                                 </ul>-->
 
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li class="active ripplelink"><a href="index.php" class="inPrem2Link"><?php echo $lang['Home']; ?></a></li>
+                                <ul class="nav navbar-nav navbar-left">
+                                    <!-- <li class="active ripplelink"><a href="index.php" class="inPrem2Link"><?php echo $lang['Home']; ?></a></li> -->
                                     <?php if($row_menu->menu_search == 'APPROVED'){ ?>
                                     <li class="dropdown">
                                         <a href="search.php" class="dropdown-toggle ripplelink inPrem2Link" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -134,9 +136,9 @@
                                     </li>
                                     <?php } ?>
                     
-                                    <!--<?php if($row_menu->menu_success == 'APPROVED'){ ?>
-                                        <li class="ripplelink"><a href="success-story.php"><i class="fas fa-users mr-10 fa-lg"></i><?php echo $lang['Success Story']; ?></a></li>
-                                    <?php } ?>-->
+                                    <?php if($row_menu->menu_success == 'APPROVED'){ ?>
+                                        <li class="ripplelink"><a href="success-story.php" class="inPrem2Link"></i><?php echo $lang['Success Story']; ?></a></li>
+                                    <?php } ?>
 
                                     <?php if($row_menu->menu_membership == 'APPROVED'){ ?>
                                         <li class="ripplelink"><a href="membershipplans.php" class="inPrem2Link"><?php echo $lang['Membership']; ?></a></li>
@@ -145,7 +147,10 @@
                                     <?php if($row_menu->menu_contact == 'APPROVED'){ ?>
                                         <li class="ripplelink"><a href="contactUs.php" class="inPrem2Link"><?php echo $lang['Contact Us']; ?></a></li>
                                     <?php } ?>
-                                    <a href="login" class="btn gt-btn-green"><i class="fas fa-lock mr-10 font-15"></i>Login</a>
+                                    
+                                </ul>
+                                <ul class="nav navbar-nav navbar-right">
+                                    <a href="login" class="btn gt-btn-green">Login</a>
                                 </ul>
                             </div>
                         </div>
@@ -159,7 +164,7 @@
 								$row_banner = mysqli_fetch_object($DatabaseCo->dbLink->query("SELECT banner1,banner2,banner3 FROM site_config WHERE id='1'"));
 							?>
 							<!-- Main Carousel -->
-                            <div id="owl-demo-2" class="owl-carousel gt-slide-up">
+                            <!-- <div id="owl-demo-2" class="owl-carousel gt-slide-up">
 								<?php 
 									if($row_banner->banner1 !="" && file_exists('img/banners/'.$row_banner->banner1)){ 
 								?>
@@ -181,13 +186,16 @@
                                     <img src="img/banners/<?php echo $row_banner->banner3;?>" alt="banner-3">
                                 </div>
 								<?php } ?>
-                            </div>
-                            <!-- /. Main Carousel -->
-                            <div class="container gt-pad-lr-0-479">
-                               
-								<!-- Signup form -->
-                                <div class="col-xxl-6 col-xxl-offset-10 col-xl-7 col-xl-offset-9 col-lg-16 gt-pad-lr-0-479">
-								    <div class="gt-slideup-form">
+                            </div> -->
+                            <div class="jumbotron">
+                                <div class="container">
+                                    <div class="row">
+                                    <div class="col-md-10 col-lg-10">
+                                    <h1>Hello, world!</h1>
+                                    <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 gt-pad-lr-0-479">
+								    <div class="gt-slideup-form pull-right">
 								        <div class="gt-slideUp-form-head">
                                             <h4><?php echo $lang['REGISTER NOW']; ?></h4>
                                         </div>
@@ -407,8 +415,12 @@
                                             </form>
                                         </div>
 								    </div>
+                                                                        </div>
                                 </div>
-                            </div>   
+                                </div>
+                            </div>
+                            <!-- /. Main Carousel -->
+
                         </div>
                     </div>
                     <section class="inPrem2Search">

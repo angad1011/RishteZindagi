@@ -155,7 +155,7 @@
 
     			<div class="">
 
-            	<a class="btn gt-btn-green gt-margin-bottom-20 visible-xs visible-lg visible-md visible-sm" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
+            	<a class="btn gt-btn-darkblue gt-margin-bottom-20 visible-xs visible-lg visible-md visible-sm" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
 
  					Options <i class="fa fa-cerat-bottom"></i>
 

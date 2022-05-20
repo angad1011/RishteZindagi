@@ -122,7 +122,7 @@ if($_SESSION['user_id']!=''){
 				<p class="pull-left text-danger"><?php echo $lang['Date']; ?> - 
 					<small><?php echo date('l j F ,Y g:i A');?></small>
 				</p>
-				<button type="button" name="send-interest" value="submit" class="btn gt-btn-green" id="sent_interest"><?php echo $lang['Send Interest']; ?></button>
+				<button type="button" name="send-interest" value="submit" class="btn gt-btn-darkblue" id="sent_interest"><?php echo $lang['Send Interest']; ?></button>
 				<button type="button" class="btn btn-danger" data-dismiss="modal" onclick="javascript:window.location.reload()"><?php echo $lang['Close']; ?></button>
 			</div>
 		</form>
@@ -258,7 +258,7 @@ if($_SESSION['user_id']!=''){
                     <p class="pull-left text-danger"><?php echo $lang['Date']; ?> - 
                         <small><?php echo date('l j F ,Y g:i A');?></small>
                     </p>
-                    <button type="button" name="send-interest" value="submit" class="btn gt-btn-green" id="sent_interest"><?php echo $lang['Send Interest']; ?></button>
+                    <button type="button" name="send-interest" value="submit" class="btn gt-btn-darkblue" id="sent_interest"><?php echo $lang['Send Interest']; ?></button>
                     <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="javascript:window.location.reload()"><?php echo $lang['Close']; ?></button>
                 </div>
             </form>

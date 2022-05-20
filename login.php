@@ -144,7 +144,7 @@ if (isset($_POST['member_login'])) {
 									</div>
                                     <h5 class="text-center">OR</h5>
                                     <div class="form-group text-center">
-										<a href="#loginWithOTP" data-toggle="modal" class="btn gt-btn-green btn-block"><?php echo $lang['Login With OTP']; ?></a>
+										<a href="#loginWithOTP" data-toggle="modal" class="btn gt-btn-darkblue btn-block"><?php echo $lang['Login With OTP']; ?></a>
 									</div>
 									<div class="clearfix"></div>
                                     <h5 class="text-center gt-margin-top-20">Not received email verification link?</h5>

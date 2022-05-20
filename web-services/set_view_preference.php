@@ -73,7 +73,7 @@
 <div class="col-xs-16 col-xxl-16 col-xl-16 col-md-16 col-sm-16 col-lg-16 setting-collapse-bucket">
     <div class="row">
         <div class="col-xxl-7 col-xl-7 col-xs-16 col-sm-16 col-md-16 col-lg-7 gt-margin-bottom-10">
-            <a class="btn gt-btn-green" onClick="contactvisbility('0');">
+            <a class="btn gt-btn-darkblue" onClick="contactvisbility('0');">
                 <span class="gt-margin-left-10">
                     <i class="fa fa-eye gt-margin-right-10"></i><?php echo $lang['Show To Express Interest']; ?>
                     <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $lang['Accepted Paid Member']; ?>
@@ -81,7 +81,7 @@
             </a>
         </div>
         <div class="col-xxl-6 col-xl-6 col-xs-16 col-sm-16 col-md-16 col-lg-6 gt-margin-bottom-10">
-            <a class="btn gt-btn-green" onClick="contactvisbility('1');">
+            <a class="btn gt-btn-darkblue" onClick="contactvisbility('1');">
                 <span class="gt-margin-left-10">
                     <i class="fa fa-eye gt-margin-right-10"></i><?php echo $lang['Show To Paid Members']; ?>
                 </span>

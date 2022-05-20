@@ -12,7 +12,7 @@ $important_cnt=mysqli_num_rows($DatabaseCo->dbLink->query("SELECT mes_id FROM me
 $inbox_cnt=mysqli_num_rows($DatabaseCo->dbLink->query("SELECT mes_id FROM messages WHERE to_id='".$_SESSION['user_id']."' AND msg_status='sent' AND trash_receiver='No'"));			
 ?>
 <div class="col-xxl-3 col-xl-4 gt-left-opt-msg">
-    <a class="btn gt-btn-green btn-block hidden-xxl hidden-xl gt-margin-bottom-20" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
+    <a class="btn gt-btn-darkblue btn-block hidden-xxl hidden-xl gt-margin-bottom-20" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
         <?php echo $lang['Options']; ?> <i class="fa fa-angel-down"></i>
     </a>
     <div class="collapse mobile-collapse" id="collapseExample">

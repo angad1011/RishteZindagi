@@ -59,7 +59,7 @@ function showData($data,$con,$limit,$adjacent){
                                 </a>
                             	<div class="row gt-margin-top-20">
                                 	<div class="col-xs-16">
-                                    	<h4 class="gt-text-green">Full Success Story</h4>
+                                    	<h4 class="gt-text-darkblue">Full Success Story</h4>
                                         <p >'.$get_st_photo->successmessage.'</p>
                                     </div>
                                 </div>		

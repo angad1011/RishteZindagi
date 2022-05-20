@@ -236,7 +236,7 @@ $mail->send();
 						<div class="row">		
 						   	<div class="col-xxl-10 col-xxl-offset-3 col-xl-10 col-xl-offset-3 col-xs-16 col-sm-16 col-md-16 gt-upload-photo mb-25">
 								<div class="col-xs-16 text-center">
-									<h3 class="gt-text-green inPageTitle fontMerriWeather text-center mt-15 inThemeOrange"><?php echo $lang['Upload Profile Picture']; ?></h3>
+									<h3 class="gt-text-darkblue inPageTitle fontMerriWeather text-center mt-15 inThemeOrange"><?php echo $lang['Upload Profile Picture']; ?></h3>
 									<article><p class="inPageSubTitle text-center mb-30"><?php echo $lang['Uploading your profile picture give you 10 time more response']; ?>.</p></article>
 								</div>
 								<div class="gt-profile-pic-panel inPhotoUpload pb-30">
@@ -248,7 +248,7 @@ $mail->send();
 										?>
 								   		<div class="row">
 											<div class="col-xxl-3 col-xxl-offset-13">
-												<a class="btn gt-btn-green btn-block" href="aadhaar_upload"> <?php echo $lang['Skip']; ?> <i class="fa fa-caret-right"></i></a>
+												<a class="btn gt-btn-darkblue btn-block" href="aadhaar_upload"> <?php echo $lang['Skip']; ?> <i class="fa fa-caret-right"></i></a>
 											</div>
 										</div>
 										<?php } ?>
@@ -276,7 +276,7 @@ $mail->send();
 															<?php echo $lang['Select Image']; ?>
 														</label>
 														<p class="mt-10"><?php echo $lang['After select image click on']; ?> <b><?php echo $lang['Upload & Continue']; ?></b> <?php echo $lang['button']; ?>.</p>
-														<input type="submit" name="submit" value="<?php echo $lang['Upload & Continue']; ?>" class="btn gt-btn-green inIndexRegBtn btn-block inPhotoUploadBtn mt-20">
+														<input type="submit" name="submit" value="<?php echo $lang['Upload & Continue']; ?>" class="btn gt-btn-darkblue inIndexRegBtn btn-block inPhotoUploadBtn mt-20">
 													</div>
 												</div>
 											</div>

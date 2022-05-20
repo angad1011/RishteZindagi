@@ -583,7 +583,7 @@
                     </span>
                 </p>
                 <?php if (isset($_SESSION['user_id'])) { ?>
-                    <a data-toggle="modal" data-target="#myModal" onClick="save_search();" class="btn gt-btn-green gt-cursor">
+                    <a data-toggle="modal" data-target="#myModal" onClick="save_search();" class="btn gt-btn-darkblue gt-cursor">
                         <?php echo $lang['Add To Saved Search']; ?>
                     </a>
                 <?php } ?>
@@ -592,10 +592,10 @@
     </div>  
     <div class="col-xs-16 text-right">
         <div class="buttons">
-            <button class="grid btn gt-btn-green">
+            <button class="grid btn gt-btn-darkblue">
                 <i class="fa fa-list gt-margin-right-5"></i><?php echo $lang['Grid View']; ?>
             </button>
-            <button class="list btn gt-btn-green">
+            <button class="list btn gt-btn-darkblue">
                 <i class="fa fa-th gt-margin-right-5"></i><?php echo $lang['List View']; ?>
             </button>
         </div>

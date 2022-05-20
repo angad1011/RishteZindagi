@@ -40,7 +40,7 @@ if($total_cnt-$used_cnt>0)
           <h4 class="text-center gt-margin-bottom-20"><?php echo $lang['You want to see contact Details?']; ?></h4>
           <div class="row">
             <div class="col-xs-8">                
-              <a class="btn  gt-btn-green btn-block" onClick="getContactDetail('<?php echo $from_id; ?>')"><?php echo $lang['Yes']; ?></a>
+              <a class="btn  gt-btn-darkblue btn-block" onClick="getContactDetail('<?php echo $from_id; ?>')"><?php echo $lang['Yes']; ?></a>
             </div>
             <div class="col-xs-8">                
               <a class="btn gt-btn-orange  btn-block" data-dismiss="modal" aria-hidden="true"><?php echo $lang['No']; ?></a>

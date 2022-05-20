@@ -29,7 +29,7 @@
 					<?php echo $lang['Select Image']; ?>
 				</label>
 				<div class="form-group text-center mt-3">
-					<input type="submit" name="editPhoto2" value="<?php echo $lang['SUBMIT']; ?>" class="btn gt-btn-green btn-block gt-margin-top-20">
+					<input type="submit" name="editPhoto2" value="<?php echo $lang['SUBMIT']; ?>" class="btn gt-btn-darkblue btn-block gt-margin-top-20">
 				</div>
 				</center>
        		</div>

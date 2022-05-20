@@ -45,7 +45,7 @@ $recever_id = $_GET['id'];
 					<div class="col-xs-16 text-center">
 						<input class="btn gt-btn-orange" type="submit" name="submit"  value="Submit">
 						<a data-toggle="modal" data-target="#myModal5" onClick="send_pass_req('<?php echo $recever_id; ?>');"  >
-						  <input class="btn gt-btn-green" type="button" name="req-password" value="<?php echo $lang['Don\'t have password']; ?>">
+						  <input class="btn gt-btn-darkblue" type="button" name="req-password" value="<?php echo $lang['Don\'t have password']; ?>">
 						</a>
 					</div>
 					

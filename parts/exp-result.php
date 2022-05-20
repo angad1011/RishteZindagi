@@ -107,7 +107,7 @@ $username_settings=mysqli_fetch_object($SQL_STATEMENT_USERSETTING);
         		</a>
       		</div>
       		<div class="col-xxl-3 col-xl-3 col-md-5 col-xs-6 hidden-xs hidden-sm hidden-md">
-        		<a class="btn gt-btn-green gt-cursor btn-block" id="accept_res_all">
+        		<a class="btn gt-btn-darkblue gt-cursor btn-block" id="accept_res_all">
           			<i class="fa fa-check gt-margin-right-10"></i><?php echo $lang['Accept']; ?>
         		</a>
       		</div>

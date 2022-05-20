@@ -606,9 +606,9 @@ if(isset($_POST['occupation_sub'])){
 															</div>
 														</div>
 														<div class="form-group text-center">
-															<input type="submit" value="<?php echo $lang['Search Now']; ?>" name="quick_sub" class="btn gt-btn-green">
+															<input type="submit" value="<?php echo $lang['Search Now']; ?>" name="quick_sub" class="btn gt-btn-darkblue">
 															<?php if(isset($_SESSION['user_id'])){ ?>
-																<a class="btn gt-btn-green gt-cursor" data-toggle="modal" data-target="#myModal" onClick="save_search();"><?php echo $lang['Save Search']; ?></a>
+																<a class="btn gt-btn-darkblue gt-cursor" data-toggle="modal" data-target="#myModal" onClick="save_search();"><?php echo $lang['Save Search']; ?></a>
 															<?php }?>
 														</div>
                                     				</form>
@@ -874,9 +874,9 @@ if(isset($_POST['occupation_sub'])){
 															</div>
 														</div>
 														<div class="form-group text-center">
-															<input type="submit" value="<?php echo $lang['Search Now']; ?>" name="basic_sub" class="btn gt-btn-green">
+															<input type="submit" value="<?php echo $lang['Search Now']; ?>" name="basic_sub" class="btn gt-btn-darkblue">
 															<?php if(isset($_SESSION['user_id'])){ ?>
-																<a class="btn gt-btn-green gt-cursor" data-toggle="modal" data-target="#myModal" onClick="save_search();"><?php echo $lang['Save Search']; ?></a>
+																<a class="btn gt-btn-darkblue gt-cursor" data-toggle="modal" data-target="#myModal" onClick="save_search();"><?php echo $lang['Save Search']; ?></a>
 															<?php }?>
 
 														 </div>
@@ -1227,9 +1227,9 @@ if(isset($_POST['occupation_sub'])){
 															</div>
 														</div>
 														<div class="form-group text-center">
-															<input type="submit" value="<?php echo $lang['Search Now']; ?>" name="advance_sub" class="btn gt-btn-green">
+															<input type="submit" value="<?php echo $lang['Search Now']; ?>" name="advance_sub" class="btn gt-btn-darkblue">
 															<?php if(isset($_SESSION['user_id'])) { ?>
-															<a class="btn gt-btn-green gt-cursor" data-toggle="modal" data-target="#myModal" onClick="save_search();"><?php echo $lang['Saved Search']; ?></a>
+															<a class="btn gt-btn-darkblue gt-cursor" data-toggle="modal" data-target="#myModal" onClick="save_search();"><?php echo $lang['Saved Search']; ?></a>
 															<?php }?>
 														</div>
                                    					</form>     
@@ -1279,9 +1279,9 @@ if(isset($_POST['occupation_sub'])){
 															</div>
 														</div>
 														<div class="form-group text-center">
-															<input type="submit" value="<?php echo $lang['Search Now']; ?>" name="keyword_sub" class="btn gt-btn-green">
+															<input type="submit" value="<?php echo $lang['Search Now']; ?>" name="keyword_sub" class="btn gt-btn-darkblue">
 															<?php if(isset($_SESSION['user_id'])){?>
-															<a class="btn gt-btn-green gt-cursor" data-toggle="modal" data-target="#myModal" onClick="save_search();"><?php echo $lang['Save Search']; ?></a>
+															<a class="btn gt-btn-darkblue gt-cursor" data-toggle="modal" data-target="#myModal" onClick="save_search();"><?php echo $lang['Save Search']; ?></a>
 															<?php }?>
 														</div>
 													</form>
@@ -1383,9 +1383,9 @@ if(isset($_POST['occupation_sub'])){
 															</div>
 														</div>
                                     					<div class="form-group text-center">
-                                          					<input type="submit" value="<?php echo $lang['Search Now']; ?>" name="location_sub" class="btn gt-btn-green">
+                                          					<input type="submit" value="<?php echo $lang['Search Now']; ?>" name="location_sub" class="btn gt-btn-darkblue">
                                                        		<?php if(isset($_SESSION['user_id'])) {?>
-                                                			<a class="btn gt-btn-green gt-cursor" data-toggle="modal" data-target="#myModal" onClick="save_search();"><?php echo $lang['Save Search']; ?></a>
+                                                			<a class="btn gt-btn-darkblue gt-cursor" data-toggle="modal" data-target="#myModal" onClick="save_search();"><?php echo $lang['Save Search']; ?></a>
                                                 			<?php }?>
                                       					</div>
                                     				</form>
@@ -1482,9 +1482,9 @@ if(isset($_POST['occupation_sub'])){
 															</div>
 														</div>
 														<div class="form-group text-center">
-															<input type="submit" value="<?php echo $lang['Search Now']; ?>" name="occupation_sub" class="btn gt-btn-green">
+															<input type="submit" value="<?php echo $lang['Search Now']; ?>" name="occupation_sub" class="btn gt-btn-darkblue">
 															<?php  if(isset($_SESSION['user_id'])) { ?>
-															<a class="btn gt-btn-green gt-cursor" data-toggle="modal" data-target="#myModal" onClick="save_search();"><?php echo $lang['Save Search']; ?></a>
+															<a class="btn gt-btn-darkblue gt-cursor" data-toggle="modal" data-target="#myModal" onClick="save_search();"><?php echo $lang['Save Search']; ?></a>
 															<?php }?>
 														</div>
                                     				</form>

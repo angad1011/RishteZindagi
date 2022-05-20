@@ -284,7 +284,7 @@
 																			<input type="text" name="set_pass" placeholder="<?php echo $lang['Set Photo Password']; ?>" class="gt-form-control" data-validetta="required">
 																		</div>
 																		<div class="col-xxl-8 col-xl-8 col-lg-8 col-md-16 col-sm-16 col-xs-16 gt-margin-bottom-10">
-																			<input type="submit" name="set_photo_pass" value="<?php echo $lang['Submit']; ?>" class="btn gt-btn-green">
+																			<input type="submit" name="set_photo_pass" value="<?php echo $lang['Submit']; ?>" class="btn gt-btn-darkblue">
 																		</div>
 																	</form>
 																</div>
@@ -386,7 +386,7 @@
 																<input type="password" class="gt-form-control" id="cnfm_pass" name="cnfm_pass" data-validetta="equalTo[new_pass]">
 															</div>
 															<div class="col-xs-16 col-sm-16 col-md-16 col-lg-16 col-xxl-10 col-xxl-offset-3 col-xl-10 col-xl-offset-3 gt-margin-bottom-15 text-center">
-																<input type="submit" name="submit" value="<?php echo $lang['']; ?>Save Changes" class="btn gt-btn-green inBtnTheme-1"> 
+																<input type="submit" name="submit" value="<?php echo $lang['']; ?>Save Changes" class="btn gt-btn-darkblue inBtnTheme-1"> 
 															</div>
 														</form>
 													</div>

@@ -37,9 +37,9 @@ $DatabaseCo = new DatabaseConn();
 						  
 						</label>
 						<div class="col-xs-16 form-group text-center">
-							<input class="btn gt-btn-green" type="submit" name="req-password"  value="Send Request">
+							<input class="btn gt-btn-darkblue" type="submit" name="req-password"  value="Send Request">
 							<a data-toggle="modal" data-target="#myModal6" onClick="view_protect_photo('<?php echo $_GET['id'];?>');">
-							  <input class="btn gt-btn-green" type="button" name="req-password" value="<?php echo $lang['Click here if you have password']; ?>" >
+							  <input class="btn gt-btn-darkblue" type="button" name="req-password" value="<?php echo $lang['Click here if you have password']; ?>" >
 							</a>
 						  
 						</div>

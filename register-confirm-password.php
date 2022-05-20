@@ -57,7 +57,7 @@
 							?>
             				<div class="col-xs-16 mt-20 gtRegConfirmPass">
                 				<h5 class="text-center text-danger"><b><?php echo $lang['IMPORTANT']; ?></b></h5>
-								<h3 class="text-center gt-text-green gt-margin-top-0"><?php echo $lang['Verify your email id']; ?></h3>
+								<h3 class="text-center gt-text-darkblue gt-margin-top-0"><?php echo $lang['Verify your email id']; ?></h3>
 								<h5 class="text-center">
 									<b><?php echo $lang['NOTE']; ?>:-</b><?php echo $lang['Verify your email id by checking email and click on activation link for activating email account.If you dont get verification link please contact us']; ?>.
 								</h5>
@@ -74,7 +74,7 @@
 							<?php }?>
 							
 							<div class="col-xs-16 text-center mt-20">
-								<a href="index" class="btn gt-btn-green pt-15 pb-15 pl-20 pr-20">
+								<a href="index" class="btn gt-btn-darkblue pt-15 pb-15 pl-20 pr-20">
 									<?php echo $lang['Back to home']; ?>
 								</a>
 							</div>

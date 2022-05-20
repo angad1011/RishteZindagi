@@ -154,7 +154,7 @@ if(isset($get_own_data1->pactive_dt) != '' ){
 												<?php echo $lang['Tip : insert all details which can help you to find perfect life partner']; ?>
 											</div>
 											<div class="mt-10">
-												<a href="view-profile" class="gt-text-green">
+												<a href="view-profile" class="gt-text-darkblue">
 													<?php echo $lang['Complete Your Profile']; ?> <i class="fa fa-caret-right"></i>
 												</a>
 											</div>
@@ -220,7 +220,7 @@ if(isset($get_own_data1->pactive_dt) != '' ){
                                             					if (isset($_SESSION['user_id'])) {
                                                 					if (isset($sql_exp) && $sql_exp->receiver_response == 'Pending') {
                                              				?>
-																<button class="btn gt-btn-green btn-block mt-5" onClick="sendreminder(<?php echo $sql_exp->ei_id ?>);" id="reminder<?php echo $sql_exp->ei_id; ?>" title="Send Reminder" >
+																<button class="btn gt-btn-darkblue btn-block mt-5" onClick="sendreminder(<?php echo $sql_exp->ei_id ?>);" id="reminder<?php echo $sql_exp->ei_id; ?>" title="Send Reminder" >
                                                    					<i class="fa fa-bell gt-margin-right-5"></i><?php echo $lang['Send Reminder']; ?>
                                             					</button>
 															<?php }elseif(isset($sql_exp) && $sql_exp->receiver_response=='Accept'){ ?>
@@ -228,7 +228,7 @@ if(isset($get_own_data1->pactive_dt) != '' ){
 															<?php }elseif(isset($sql_exp) && $sql_exp->receiver_response=='Reject'){?>
 																<h5 class="interestRejected mt-5"><?php echo $lang['Interest Rejected']; ?></h5>
                                             				<?php } else { ?>	
-                                            					<button class="btn gt-btn-green btn-block mt-5" onclick="ExpressInterest('<?php echo $Row->matri_id; ?>')" title="Send Interest" data-target="#myModal1" data-toggle="modal" data-backdrop="static" data-keyboard="false">
+                                            					<button class="btn gt-btn-darkblue btn-block mt-5" onclick="ExpressInterest('<?php echo $Row->matri_id; ?>')" title="Send Interest" data-target="#myModal1" data-toggle="modal" data-backdrop="static" data-keyboard="false">
                                                    					<i class="fa fa-heart-o"></i> <?php echo $lang['Send Interest']; ?>
                                              					</button>
                                             				<?php } }?>

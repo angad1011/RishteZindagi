@@ -95,7 +95,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
                                     </a>
                                 </div>
 								<?php if($get_own_data->photo1 != '' && file_exists('my_photos/' . $get_own_data->photo1) && $get_own_data->photo1_approve == 'APPROVED') { ?>
-								<a href="#morePhotos" class="btn gt-btn-green btn-block mb-20 pt-10 pb-10" data-toggle="modal"><?php echo $lang['']; ?>View More Photos</a>
+								<a href="#morePhotos" class="btn gt-btn-darkblue btn-block mb-20 pt-10 pb-10" data-toggle="modal"><?php echo $lang['']; ?>View More Photos</a>
 								<?php } ?>
 								<!-- Modal more photos -->
 								<div class="modal fade" id="morePhotos" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -293,7 +293,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
                             </div>
 
                             <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5" style="position: fixed; left: 43%; top: 20%; z-index: -1; opacity: 0;" id="edit_success">
-                                <div class="col-xxl-13 col-xl-12 col-lg-16 col-md-16 col-sm-16 btn gt-btn-green">
+                                <div class="col-xxl-13 col-xl-12 col-lg-16 col-md-16 col-sm-16 btn gt-btn-darkblue">
                                     <font class="gt-margin-left-5"><?php echo $lang['']; ?>Your Profile Edit Successfully.&nbsp;&nbsp;</font>
                                 </div>
                             </div>

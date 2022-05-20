@@ -28,7 +28,7 @@
                                     		<?php echo $Row->city_name.', '.$Row->country_name;?>
                                     	</article>
                                     </a>
-                                    <a href="member-profile?view_id=<?php echo $Row->matri_id;?>" class="btn gt-btn-green gt-margin-top-10"><i class="fa fa-eye gt-margin-right-10"></i><?php echo $lang['View Profile']; ?></a>
+                                    <a href="member-profile?view_id=<?php echo $Row->matri_id;?>" class="btn gt-btn-darkblue gt-margin-top-10"><i class="fa fa-eye gt-margin-right-10"></i><?php echo $lang['View Profile']; ?></a>
                                 </div>
                             </div>
                 			<?php }?>

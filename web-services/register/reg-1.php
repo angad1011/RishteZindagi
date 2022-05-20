@@ -47,7 +47,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
                     <img src="img/register-img.png" class="img-responsive">
                 </div>
                 <div class="col-xxl-14">
-                    <h3 class="gt-text-green">
+                    <h3 class="gt-text-darkblue">
                         <?php echo $lang['Completing this page will take you closer to your perfect match']; ?>.
                     </h3>
                 </div>
@@ -58,7 +58,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
         <div class="row mb-20">
             <img src="img/reg-step-1.png" class="img-responsive">
         </div>
-		<h3 class="gt-text-green mb-10 fontMerriWeather">
+		<h3 class="gt-text-darkblue mb-10 fontMerriWeather">
         	<i class="fa fa-user mr-10"></i><?php echo $lang['Personal Information']; ?>
         </h3>
         <article>
@@ -1041,7 +1041,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
             </div>
 			<?php } ?>
             <div class="form-group text-center">
-                <input type="submit" name="submit" id="submit" value="<?php echo $lang['Continue']; ?>" class="btn gt-btn-green inRegBtn">
+                <input type="submit" name="submit" id="submit" value="<?php echo $lang['Continue']; ?>" class="btn gt-btn-darkblue inRegBtn">
             </div>	
 		</form>
     </div>

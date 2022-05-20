@@ -82,7 +82,7 @@ body {
     margin-top: 20px;
     padding: 8px 24px;
     border-radius: 6px;
-    box-shadow: 0px 2px 6px 2px #ff74bb59;
+    box-shadow: 2px 7px 11px 5px #ff74bb59;
 }
 
 .inPrem2Nav .dropdown-menu>li>a {
@@ -125,8 +125,8 @@ body {
 .inPrem2Nav .inPrem2Link:hover,
 .inPrem2Nav .inPrem2Link:focus {
     font-size: 14px;
-    border-bottom: 4px solid #ff7e00;
-    color: #ff7e00;
+    border-bottom: 4px solid #0b0e21;
+    color: #0b0e21;
 }
 
 .inPrem2Nav .gt-header-logo {
@@ -187,6 +187,8 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #cdd2cb;
+    border-radius: 0px !important;
+    position: relative;
 }
 
 
@@ -238,7 +240,7 @@ body {
     color: #797979;
 }
 
-.gtImageUpload .gt-btn-green {
+.gtImageUpload .gt-btn-darkblue {
     padding: 13px 25px 13px 25px;
     font-size: 14px;
     font-weight: 600;
@@ -265,7 +267,7 @@ body {
     box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.29);
 }
 
-.editPhotoModal .gt-btn-green {
+.editPhotoModal .gt-btn-darkblue {
     padding: 10px 15px;
     font-size: 16px;
     box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.29);
@@ -473,25 +475,6 @@ a.gtMobPlan:active {
     box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 20%);
 }
 
-body::-webkit-scrollbar {
-    width: 15px;
-}
-
-body::-webkit-scrollbar-track {
-    background: rgba(236, 236, 236, 1.00);
-}
-
-body::-webkit-scrollbar-thumb {
-    background: rgba(228, 115, 3, 1);
-    background: -moz-linear-gradient(left, rgba(228, 115, 3, 1) 0%, rgba(255, 137, 33, 1) 54%, rgba(228, 114, 3, 1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(228, 115, 3, 1)), color-stop(54%, rgba(255, 137, 33, 1)), color-stop(100%, rgba(228, 114, 3, 1)));
-    background: -webkit-linear-gradient(left, rgba(228, 115, 3, 1) 0%, rgba(255, 137, 33, 1) 54%, rgba(228, 114, 3, 1) 100%);
-    background: -o-linear-gradient(left, rgba(228, 115, 3, 1) 0%, rgba(255, 137, 33, 1) 54%, rgba(228, 114, 3, 1) 100%);
-    background: -ms-linear-gradient(left, rgba(228, 115, 3, 1) 0%, rgba(255, 137, 33, 1) 54%, rgba(228, 114, 3, 1) 100%);
-    background: linear-gradient(to right, rgba(228, 115, 3, 1) 0%, rgba(255, 137, 33, 1) 54%, rgba(228, 114, 3, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e47303', endColorstr='#e47203', GradientType=1);
-    outline: 1px solid slategrey;
-}
 
 @keyframes heartbeat {
     0% {
@@ -1062,18 +1045,18 @@ ul.gt-footer-social .fa-facebook-square {
     padding-top: 15px;
     padding-bottom: 15px;
     background: rgb(255, 255, 255);
-    border-top: 3px solid rgb(73, 146, 2);
+    border-top: 3px solid #0b0e21;
     font-weight: 500;
 }
 
 .gt-footer-bottom a {
-    color: #499202;
+    color: #0b0e21;
     font-weight: 600;
 }
 
 .gt-footer-bottom a:hover,
 .gt-footer-bottom a:focus {
-    color: #356B01;
+    color: #0b0e21;
     transition: all 0.3s ease-in-out;
 }
 
@@ -2398,7 +2381,7 @@ li {
 }
 
 .gt-slideup-form {
-    width: 100%;
+    width: 90%;
     float: left;
     box-shadow: 0px 0px 12px 4px rgb(0 0 0 / 30%);
     margin-top: 30px;
@@ -2438,9 +2421,9 @@ li {
 .gt-slideUp-form-head h4 {
     margin-top: 0px;
     margin-bottom: 0px;
-    color: #e47203;
-    text-align: center;
-    font-size: 22px;
+    color: #0b0e21;
+    text-align: left;
+    font-size: 21px;
     font-weight: 700;
 
 }
@@ -2900,7 +2883,7 @@ a:hover .gt-btn-round {
     color: #565656;
 }
 
-#quick_search_form .gt-btn-green {
+#quick_search_form .gt-btn-darkblue {
     font-size: 13px;
     border-radius: 5px;
     font-weight: 500;
@@ -2913,7 +2896,7 @@ a:hover .gt-btn-round {
     color: #565656;
 }
 
-#baisc_search_form .gt-btn-green {
+#baisc_search_form .gt-btn-darkblue {
     font-size: 13px;
     border-radius: 5px;
     font-weight: 500;
@@ -2926,7 +2909,7 @@ a:hover .gt-btn-round {
     color: #565656;
 }
 
-#location_search_form .gt-btn-green {
+#location_search_form .gt-btn-darkblue {
     font-size: 13px;
     border-radius: 5px;
     font-weight: 500;
@@ -2939,7 +2922,7 @@ a:hover .gt-btn-round {
     color: #565656;
 }
 
-#ocp_search_form .gt-btn-green {
+#ocp_search_form .gt-btn-darkblue {
     font-size: 13px;
     border-radius: 5px;
     font-weight: 500;
@@ -3553,17 +3536,17 @@ a.gt-text-orange:focus {
     color: rgba(239, 239, 239, 1.00);
 }
 
-.gt-text-green {
-    color: #499202;
+.gt-text-darkblue {
+    color: #0b0e21;
 }
 
-a.gt-text-green {
-    color: #499202;
+a.gt-text-darkblue {
+    color: #0b0e21;
 }
 
-a.gt-text-green:hover,
-a.gt-text-green:focus {
-    color: #336601;
+a.gt-text-darkblue:hover,
+a.gt-text-darkblue:focus {
+    color: #272e73;
 }
 
 .gt-text-black {
@@ -4461,19 +4444,19 @@ select.inThemeFormControl {
     font-weight: 600;
 }
 
-.gt-btn-green {
+.gt-btn-darkblue {
     color: #fff;
     background-color: #0b0e21;
     border-color: #0b0e21;
     transition: all 0.3s ease-in-out;
 }
 
-.gt-btn-green:hover,
-.gt-btn-green:focus,
-.gt-btn-green.focus,
-.gt-btn-green:active,
-.gt-btn-green.active,
-.open>.dropdown-toggle.gt-btn-green {
+.gt-btn-darkblue:hover,
+.gt-btn-darkblue:focus,
+.gt-btn-darkblue.focus,
+.gt-btn-darkblue:active,
+.gt-btn-darkblue.active,
+.open>.dropdown-toggle.gt-btn-darkblue {
     color: #fff;
     background-color: #272e73;
     border-color: #272e73;
@@ -5131,3 +5114,86 @@ input.ng-invalid.ng-dirty {
 }
 
 /*----- LOADER END ------*/
+
+
+.bannerHeading~p {
+    width: 70%;
+    top: 70px;
+    left: 45px;
+    position: relative;
+}
+
+.jumbotron h1,
+.jumbotron h2 {
+    margin: 0;
+}
+
+.bannerHeading {
+    padding-left: 126px;
+    position: relative;
+    left: -92px;
+    top: 50px;
+}
+
+.bannerHeading::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: -webkit-fill-available;
+    background-color: #0b0e21;
+    display: block;
+    left: 0;
+}
+
+#feature {
+    flex-wrap: wrap;
+    height: auto;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+
+.feature {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 60%;
+}
+
+/* #feature .item {
+    height: auto;
+} */
+
+.feature .item {
+    margin: 0;
+    display: flex;
+    padding: 10px;
+    width: 50%;
+    height: 140px;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.feature .item.first {
+    background-color: #0b0e21;
+}
+
+.feature .item.second {
+    background-color: #0e1332;
+}
+
+.feature .item.third {
+    background-color: #26306c;
+}
+
+.feature .item.fourth {
+    background-color: #343f7d;
+}
+
+.feature .item p {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}

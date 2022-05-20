@@ -11,7 +11,7 @@
 	  <div class="row">
 		 <?php if($row_menu->footer_contact == 'APPROVED' || $row_menu->footer_faq == 'APPROVED' || $row_menu->footer_refund == 'APPROVED'){ ?>
 		 <div class="col-xxl-4 col-xl-4 col-lg-8 col-sm-16 col-md-8">
-			<h5 class="gt-text-green gt-font-weight-600">
+			<h5 class="gt-text-darkblue gt-font-weight-600">
 				<?php echo $lang['Help And Support']; ?>
             </h5>
  			<ul class="">
@@ -29,7 +29,7 @@
 		 <?php } ?>
 		 <?php if($row_menu->footer_terms == 'APPROVED' || $row_menu->footer_policy == 'APPROVED' || $row_menu->footer_report == 'APPROVED'){ ?>
 		 <div class="col-xxl-4 col-xl-4 col-lg-8 col-sm-16 col-md-8">
-			<h5 class="gt-text-green gt-font-weight-600">
+			<h5 class="gt-text-darkblue gt-font-weight-600">
 				<?php echo $lang['Terms & Policy']; ?>
 			</h5>
 			<ul class="">
@@ -47,7 +47,7 @@
 		<?php } ?>
 		<?php if($row_menu->footer_login == 'APPROVED' || $row_menu->footer_register == 'APPROVED' || $row_menu->footer_membership == 'APPROVED'){ ?>
 		<div class="col-xxl-4 col-xl-4 col-lg-8 col-sm-16 col-md-8">
-			<h5 class="gt-text-green gt-font-weight-600">
+			<h5 class="gt-text-darkblue gt-font-weight-600">
 				<?php echo $lang['Need Help?']; ?>
 			</h5>
 			<ul class="">
@@ -67,7 +67,7 @@
 		<?php } ?>
 		<?php if($row_menu->footer_success == 'APPROVED' || $row_menu->footer_about == 'APPROVED' ){ ?>
 		<div class="col-xxl-4 col-xl-4 col-lg-8 col-sm-16 col-md-8">
-			<h5 class="gt-text-green gt-font-weight-600">
+			<h5 class="gt-text-darkblue gt-font-weight-600">
 				<?php echo $lang['Information']; ?>
 			</h5>
 			<ul class="">
@@ -84,12 +84,12 @@
       <div class="row">
 		  <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-16">
 			<?php if($row_menu->footer_about_short == 'APPROVED'){ ?>
-			<h5 class="gt-text-green gt-font-weight-600"><?php echo $lang['About Us']; ?></h5>
+			<h5 class="gt-text-darkblue gt-font-weight-600"><?php echo $lang['About Us']; ?></h5>
             <p><?php echo $configObj->getConfigFshortDescription(); ?></p>
 			<?php } ?>
 		  </div>
 		  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-16 text-center">
-				<h5 class="gt-text-green gt-font-weight-600">
+				<h5 class="gt-text-darkblue gt-font-weight-600">
                     <?php echo $lang['Join us on social']; ?>
                 </h5>
 				<?php
@@ -157,7 +157,7 @@
                         <input type="text" name="userId" class="gt-form-control" placeholder="<?php echo $lang['Enter Email id / Mobile No / Matri Id']; ?>">
                     </div>
                     <div class="form-group text-center">
-                        <input type="submit" value="<?php echo $lang['GET OTP']; ?>" class="btn gt-btn-green">
+                        <input type="submit" value="<?php echo $lang['GET OTP']; ?>" class="btn gt-btn-darkblue">
                     </div>
                 </form>
             </div>

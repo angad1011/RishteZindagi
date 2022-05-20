@@ -205,7 +205,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
         <div class="col-xxl-11">
             <div class="row">
                 <div class="col-xxl-14">
-                    <h3 class="gt-text-green">
+                    <h3 class="gt-text-darkblue">
                         <?php echo $lang['Tell some details about your life partner']; ?>.
                     </h3>
                     <article>
@@ -227,7 +227,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
         <form method="post" action="register-photo-upload" name="reg_form_2" id="reg_form_2">
             <input type="hidden" name="user_id" value="<?php echo $_SESSION['matri_id_reg']; ?>">
             <div class="gt-margin-bottom-30 gt-margin-top-30">
-                <h3 class="gt-text-green pb-10 gtRegTitle"><i class="fas fa-user-circle gt-margin-right-10"></i><?php echo $lang['Basic Preference']; ?></h3>
+                <h3 class="gt-text-darkblue pb-10 gtRegTitle"><i class="fas fa-user-circle gt-margin-right-10"></i><?php echo $lang['Basic Preference']; ?></h3>
             </div>
 
             <div class="form-group">
@@ -466,7 +466,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 			<?php } ?>
 
             <div class="gt-margin-bottom-30 gt-margin-top-30">
-                <h3 class="gt-text-green pb-10 gtRegTitle"><i class="fa fa-book gt-margin-right-10"></i><?php echo $lang['Religion Preference']; ?></h3>
+                <h3 class="gt-text-darkblue pb-10 gtRegTitle"><i class="fa fa-book gt-margin-right-10"></i><?php echo $lang['Religion Preference']; ?></h3>
             </div>
             <div class="form-group">
                 <div class="row">
@@ -594,7 +594,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
                 </div>
             </div>
             <div class="gt-margin-bottom-30 gt-margin-top-30">
-                <h3 class="gt-text-green pb-10 gtRegTitle"><i class="fa fa-globe gt-margin-right-10"></i><?php echo $lang['Location Preference']; ?></h3>
+                <h3 class="gt-text-darkblue pb-10 gtRegTitle"><i class="fa fa-globe gt-margin-right-10"></i><?php echo $lang['Location Preference']; ?></h3>
             </div>
             <div class="form-group">
                 <div class="row">
@@ -654,7 +654,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
             </div>
 			<?php } ?>
             <div class="gt-margin-bottom-30 gt-margin-top-30">
-                <h3 class="gt-text-green pb-10 gtRegTitle"><i class="fa fa-university gt-margin-right-10"></i><?php echo $lang['Professional Preference']; ?></h3>
+                <h3 class="gt-text-darkblue pb-10 gtRegTitle"><i class="fa fa-university gt-margin-right-10"></i><?php echo $lang['Professional Preference']; ?></h3>
             </div>
 
             <div class="form-group">
@@ -721,7 +721,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 			<?php } ?>
 			<?php if($row_field->part_expect == 'Yes'){ ?>
             <div class="gt-margin-bottom-30 gt-margin-top-30">
-                <h3 class="gt-text-green pb-10 gtRegTitle"><i class="fa fa-user gt-margin-right-10"></i><?php echo $lang['Partner Expectation']; ?></h3>
+                <h3 class="gt-text-darkblue pb-10 gtRegTitle"><i class="fa fa-user gt-margin-right-10"></i><?php echo $lang['Partner Expectation']; ?></h3>
             </div>
             <div class="form-group">
                 <div class="row">

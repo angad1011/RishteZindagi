@@ -150,7 +150,7 @@
                                     
                                 </ul>
                                 <ul class="nav navbar-nav navbar-right">
-                                    <a href="login" class="btn gt-btn-green">Login</a>
+                                    <a href="login" class="btn gt-btn-darkblue">Login</a>
                                 </ul>
                             </div>
                         </div>
@@ -191,8 +191,17 @@
                                 <div class="container">
                                     <div class="row">
                                     <div class="col-md-10 col-lg-10">
-                                    <h1>Hello, world!</h1>
-                                    <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                                    <div class="bannerHeading">
+                                    <h2>Find The</h2>
+                                    <h1>Perfect 'ONE'</h1>
+                                    </div>
+                                    <p>One day you shall meet your perfect match, someone you can love, someone you can look upto, someone you can adore, someone who is just perfect for you.</p>
+                                   <div class="feature" id="feature">
+                                        <div class="item first"><p><i class="fa fa-check-square" aria-hidden="true"></i> Verified User</p></div>
+                                        <div class="item second" ><p><i class="fa fa-comment" aria-hidden="true"></i> Free Chat</p></div>
+                                        <div class="item third" ><p>Unlimited Match</p></div>
+                                        <div class="item fourth" ><p>Daily Match</p></div>
+                                    </div>
                                     </div>
                                     <div class="col-md-6 col-lg-6 gt-pad-lr-0-479">
 								    <div class="gt-slideup-form pull-right">
@@ -409,7 +418,7 @@
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col-xxl-16 text-center">
-                                                        <button type="submit" class="btn gt-btn-green inIndexRegBtn" name="reg_sub"><?php echo $lang['Register Now']; ?></button>
+                                                        <button type="submit" class="btn gt-btn-darkblue inIndexRegBtn" name="reg_sub"><?php echo $lang['Register Now']; ?></button>
                                                     </div>
                                                 </div>
                                             </form>
@@ -423,7 +432,7 @@
 
                         </div>
                     </div>
-                    <section class="inPrem2Search">
+                    <!-- <section class="inPrem2Search">
                         <div class="container">
                             <form method="post" action="search" id="">
                                 <div class="col-xxl-2">
@@ -494,7 +503,7 @@
                             </form>
                         </div>
                         <div class="clearfix"></div>
-                    </section>
+                    </section> -->
                     <!-- Welcome Section -->
                     <section class="gt-bg-white">
                         <div class="container pb-50">
@@ -629,9 +638,9 @@
                             </p>
                         	<div class="gt-hearts">
                             	<div class="gt-hearts-group gt-bg-white">
-                                    <i class="fa fa-heart font-20 heart gt-text-green"></i>
-                                	<i class="fa fa-heart font-38 heart gt-text-green"></i>
-                                	<i class="fa fa-heart font-20 heart gt-text-green"></i>
+                                    <i class="fa fa-heart font-20 heart gt-text-darkblue"></i>
+                                	<i class="fa fa-heart font-38 heart gt-text-darkblue"></i>
+                                	<i class="fa fa-heart font-20 heart gt-text-darkblue"></i>
                             	</div>
                             </div>
                         	<div id="inFetBride" class="owl-carousel">
@@ -691,9 +700,9 @@
                             </p>
                         	<div class="gt-hearts">
                             	<div class="gt-hearts-group">
-                                    <i class="fa fa-heart font-20 heart gt-text-green"></i>
-                                	<i class="fa fa-heart font-38 heart gt-text-green"></i>
-                                	<i class="fa fa-heart font-20 heart gt-text-green"></i>
+                                    <i class="fa fa-heart font-20 heart gt-text-darkblue"></i>
+                                	<i class="fa fa-heart font-38 heart gt-text-darkblue"></i>
+                                	<i class="fa fa-heart font-20 heart gt-text-darkblue"></i>
                             	</div>
                         	</div>
                         	<div id="inFetGroom" class="owl-carousel">

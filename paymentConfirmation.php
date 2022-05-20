@@ -100,7 +100,7 @@
 								<?php echo $lang['You are our paid member now.You can access our membership benifits now']; ?>.
 							</h5>
 							<div class="col-xxl-16 col-xl-16 text-center gt-margin-top-10 gt-margin-bottom-20">
-								<a href="myHome" class="btn gt-btn-green inBtnTheme-2">
+								<a href="myHome" class="btn gt-btn-darkblue inBtnTheme-2">
 									<?php echo $lang['Go To Home']; ?>
 								</a>
 							</div>    
@@ -124,7 +124,7 @@
 								<?php echo $lang['Payment not successful.If payment is debited please contact us']; ?>.
 							</h5>
 							<div class="col-xxl-16 col-xl-16 text-center gt-margin-top-10 gt-margin-bottom-20">
-								<a href="myHome" class="btn gt-btn-green inBtnTheme-2">
+								<a href="myHome" class="btn gt-btn-darkblue inBtnTheme-2">
 									<?php echo $lang['Go To Home']; ?>
 								</a>
 							</div>    

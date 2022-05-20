@@ -201,7 +201,7 @@
                                                 		<textarea required  class="gt-form-control" rows="5" id="description" name="description" placeholder="<?php echo $lang['Enter Your Query Here']; ?>"></textarea>
                                             		</div>
                                             		<div class="form-group text-center">
-                                            			<button type="submit" name="sub_contact" id="contact-btn" class="btn gt-btn-green btn-lg">
+                                            			<button type="submit" name="sub_contact" id="contact-btn" class="btn gt-btn-darkblue btn-lg">
                                                 			<?php echo $lang['Submit']; ?>
                                                 		</button>
                                             		</div>

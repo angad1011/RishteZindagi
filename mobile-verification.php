@@ -199,7 +199,7 @@ if (isset($_POST['sms'])) {
 											   <!-- <input type="text"  placeholder="Enter Your OTP code here">-->
 											</div>
 											<div class="col-md-16 col-xs-16 text-center">
-												<input type="submit" name="verify_submit" class="btn gt-btn-green btnVerify mt-10" value="<?php echo $lang['Verify']; ?>">
+												<input type="submit" name="verify_submit" class="btn gt-btn-darkblue btnVerify mt-10" value="<?php echo $lang['Verify']; ?>">
 											</div>
 											<div class="col-xs-16 mt-10">
 												<?php 

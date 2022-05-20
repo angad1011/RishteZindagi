@@ -41,7 +41,7 @@
     <div class="col-xxl-16 col-lg-16 col-xs-16 col-sm-16 col-md-16">
         <div class="row">
             <div class="col-xxl-2 col-xl-3 col-xs-16 col-md-6 col-lg-3 text-center gt-margin-top-10">
-                 <a href="composeMessages?user_id=<?php echo $Row->matri_id; ?>" class="btn gt-text-green">
+                 <a href="composeMessages?user_id=<?php echo $Row->matri_id; ?>" class="btn gt-text-darkblue">
                     <i class="fas fa-envelope gt-margin-right-10"></i> <?php echo $lang['Send Message']; ?>
                  </a>
             </div>

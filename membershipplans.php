@@ -183,12 +183,12 @@
                                         				<div class="col-xxl-6 col-xl-6 col-lg-8">
                                             				<h4 class="gt-margin-top-30">
                                                					<?php echo $lang['Total  Amount']; ?>  :- 
-                                                                    <span class="gt-margin-left-10 gt-text-green" id="dis_plan_amount">Rs.1000</span>
+                                                                    <span class="gt-margin-left-10 gt-text-darkblue" id="dis_plan_amount">Rs.1000</span>
                                             				</h4>
                                         				</div>
                                     				</div>
                                     				<div class="row text-center">
-                                       					<a href="" id="checkout" class="btn gt-btn-green gt-btn-md mt-15">
+                                       					<a href="" id="checkout" class="btn gt-btn-darkblue gt-btn-md mt-15">
                                             				<i class="fas fa-shopping-cart gt-margin-right-10 font-12"></i><?php echo $lang['Checkout']; ?>
                                         				</a>
                                         			</div>

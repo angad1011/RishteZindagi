@@ -137,7 +137,7 @@
       				<div class="container gt-margin-top-20">
         				<div class="row">
           					<aside class="col-xxl-4 col-xl-4 col-xs-16">
-            					<a class="btn gt-btn-green btn-block hidden-xxl hidden-xl gt-margin-bottom-20 gt-margin-top-15" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
+            					<a class="btn gt-btn-darkblue btn-block hidden-xxl hidden-xl gt-margin-bottom-20 gt-margin-top-15" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
               						<?php echo $lang['Options']; ?> 
               						<i class="fa fa-angel-down"></i>
             					</a>
@@ -152,7 +152,7 @@
               						<p class="inPageSubTitle"><?php echo $lang['In custom match you can set criteria to get auto results']; ?>.</p>
             					</article>
 								<div class="col-xl-16 text-center mb-20">
-									<a class="btn gt-btn-green" data-toggle="collapse" href="#collapseCustomMatch" role="button" aria-expanded="false" aria-controls="collapseCustomMatch">
+									<a class="btn gt-btn-darkblue" data-toggle="collapse" href="#collapseCustomMatch" role="button" aria-expanded="false" aria-controls="collapseCustomMatch">
     									<?php echo $lang['Set Custom Match']; ?>
   									</a>
 									 

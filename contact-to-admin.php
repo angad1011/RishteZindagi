@@ -168,7 +168,7 @@ $headers  = 'MIME-Version: 1.0' . "\r\n";
                                                 		<textarea required  class="gt-form-control" rows="5" id="description" name="description" placeholder="Enter Your Query Here"></textarea>
                                             		</div>
                                             		<div class="form-group text-center">
-                                            			<button type="submit" name="sub_contact" id="contact-btn" class="btn gt-btn-green btn-lg">
+                                            			<button type="submit" name="sub_contact" id="contact-btn" class="btn gt-btn-darkblue btn-lg">
                                                 			Submit
                                                 		</button>
                                             		</div>

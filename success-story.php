@@ -3,7 +3,12 @@
 	include_once './lib/requestHandler.php';
 	$DatabaseCo = new DatabaseConn();
 	include_once './class/Config.class.php';
-	$configObj = new Config();
+    $configObj = new Config();
+    $menu_settings = $DatabaseCo->dbLink->query("SELECT menu_search,menu_success,menu_membership,menu_contact,menu_login,menu_signup FROM menu_settings WHERE menu_id=1");
+	$row_menu=mysqli_fetch_object($menu_settings);
+
+    $android_settings = $DatabaseCo->dbLink->query("SELECT android_app,android_app_link FROM site_config WHERE id=1");
+	$row_android=mysqli_fetch_object($android_settings);
 
 	if(isset($_REQUEST['sub_success'])){
 		$brideid=htmlspecialchars($_POST['brideid'], ENT_QUOTES);
@@ -172,8 +177,7 @@
 		<div id="wrap">
   			<div id="main">
     			<!-- Header & Menu -->
-            	<?php include "parts/header.php"; ?>
-                <?php include "parts/menu.php"; ?>
+            	<?php include "parts/new_menu.php"; ?>
                 <!-- /. Header & Menu -->
 				<div class="container">
 					<h2 class="text-center inPageTitle fontMerriWeather">

@@ -3,7 +3,7 @@ body {
     /*font-family: 'Merriweather', serif;*/
 
     font-size: 14px !important;
-    background: #fff;
+    background: #f8f8f8;
 }
 
 .gtAndroidDown {
@@ -1045,7 +1045,7 @@ ul.gt-footer-social .fa-facebook-square {
     padding-top: 15px;
     padding-bottom: 15px;
     background: rgb(255, 255, 255);
-    border-top: 3px solid #0b0e21;
+    border-top: 1px solid #dedede;
     font-weight: 500;
 }
 
@@ -1324,12 +1324,12 @@ a.gt-footer-develop:focus {
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:hover,
 .nav-tabs>li.active>a:focus {
-    background-color: rgba(255, 255, 255, 1.00) !important;
+    background-color: rgb(11 14 33) !important;
     border: 1px solid #ddd;
     border-bottom-color: transparent;
-    box-shadow: 0px -5px 0px 0px rgb(228, 114, 3);
+    /* box-shadow: 0px -5px 0px 0px rgb(228, 114, 3); */
     border-radius: 5px 5px 0px 0px;
-    color: #4A4A4A;
+    color: #fff;
 }
 
 .inDisplayNone {
@@ -1342,13 +1342,13 @@ a.gt-footer-develop:focus {
     margin-top: 40px;
     cursor: pointer;
     border-radius: 5px;
-    box-shadow: 0px 0px 8px 2px rgb(0 0 0 / 20%);
+    background-color: #fff;
 }
 
 .gt-plan .gt-plan-header {
     display: table;
     width: 100%;
-    background: rgba(228, 114, 3, 1);
+    background: #fff;
     padding: 15px;
     text-align: center;
     transition: all 0.5s ease-in-out;
@@ -1369,18 +1369,18 @@ a.gt-footer-develop:focus {
 }
 
 .gt-plan .gt-plan-header h4 {
-    color: #fff;
+    color: #393939;
     margin-bottom: 15px;
     font-size: 15px;
 }
 
-.gt-plan .gt-plan-header .gt-plan-price {
+/* .gt-plan .gt-plan-header .gt-plan-price {
     background: rgb(195 99 6);
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
     border-radius: 50px;
-}
+} */
 
 .gt-plan .gt-plan-header .gt-plan-price h4 {
     margin-top: 0px;
@@ -1421,51 +1421,51 @@ a.gt-footer-develop:focus {
 }
 
 .gt-plan .gt-plan-footer {
-    background: rgba(228, 114, 3, 1);
-    color: rgba(255, 255, 255, 1.00);
+    background: rgb(218 218 218);
+    color: rgb(11 14 33);
     padding-top: 20px;
     padding-bottom: 20px;
     display: block;
     text-align: center;
     font-size: 18px;
     transition: all 0.5s ease-in-out;
-    border-radius: 5px;
+    border-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .gt-plan:hover,
 .gt-plan:focus {
     background: rgb(255, 255, 255);
-}
-
-.gt-plan:hover .gt-plan-header {
-    background: rgb(73, 146, 2);
+    box-shadow: 0px 0px 13px 4px rgb(153 153 153 / 20%);
 }
 
 .gt-plan:hover .gt-plan-footer {
-    background: rgb(73, 146, 2);
+    background-color: rgb(11 14 33);
+    color: #fff;
 }
 
-.gt-plan:hover .gt-plan-header .gt-plan-price {
+/* .gt-plan:hover .gt-plan-header .gt-plan-price {
     color: rgba(2, 2, 2, 1);
     background: rgb(66, 130, 5);
     display: table;
     width: 100%;
-}
+} */
 
-.gt-plan.gt-reco .gt-plan-header {
+/* .gt-plan.gt-reco .gt-plan-header {
     background: rgb(73, 146, 2);
 }
 
 .gt-plan.gt-reco .gt-plan-footer {
     background: rgb(73, 146, 2);
-}
+} */
 
-.gt-plan.gt-reco .gt-plan-header .gt-plan-price {
+/* .gt-plan.gt-reco .gt-plan-header .gt-plan-price {
     color: rgba(2, 2, 2, 1);
     background: rgb(66, 130, 5);
     display: table;
     width: 100%;
-}
+} */
 
 .inMembershipSelected {
     box-shadow: 0px 0px 8px 2px rgb(0 0 0 / 20%);
@@ -2384,7 +2384,7 @@ li {
     width: 90%;
     float: left;
     box-shadow: 0px 0px 12px 4px rgb(0 0 0 / 30%);
-    margin-top: 30px;
+    margin-top: 52px;
     margin-bottom: 30px;
     border-radius: 10px;
 }
@@ -3477,7 +3477,7 @@ a.gt-member-profile-circle:hover {
 }
 
 .gt-bg-green {
-    background: #499202;
+    background: #0b0e21;
     color: rgba(255, 255, 255, 1.00);
 }
 
@@ -4143,18 +4143,18 @@ a.gt-text-light-Grey:focus {
 
 .gt-tabs .nav li a {
     padding: 15px 15px;
-    background-color: rgb(228, 114, 3);
-    color: white;
-    border-color: #ddd;
-    box-shadow: inset 0px -4px 6px 0px #C36000;
+    background-color: rgb(237 237 237);
+    /* box-shadow: inset 0px -4px 6px 0px #C36000; */
     border-radius: 5px 5px 0px 0px;
+    color: #4A4A4A;
+    transition: left cubic-bezier(.88, -.35, .565, 1.35) .4s;
 }
 
 .gt-tabs .nav li.active a {
-    color: #4A4A4A;
+    color: #fff;
     border-bottom-color: transparent;
     border-top-color: transparent;
-    box-shadow: 0px -6px 0px 0px #E47203;
+    /* box-shadow: 0px -6px 0px 0px #E47203; */
     border-radius: 5px 5px 0px 0px;
 }
 
@@ -4416,8 +4416,8 @@ select.inThemeFormControl {
 
 .gt-btn-orange {
     color: #fff;
-    background-color: #E47203;
-    border-color: #E47203;
+    background-color: #0b0e21;
+    border-color: #0b0e21;
     transition: all 0.3s ease-in-out;
 }
 
@@ -4428,8 +4428,8 @@ select.inThemeFormControl {
 .gt-btn-orange.active,
 .open>.dropdown-toggle.gt-btn-orange {
     color: #fff;
-    background-color: #ff7e00;
-    border-color: #e4760a;
+    background-color: #272e73;
+    border-color: #272e73;
 }
 
 .inBtnTheme-1 {
@@ -5133,6 +5133,11 @@ input.ng-invalid.ng-dirty {
     position: relative;
     left: -92px;
     top: 50px;
+}
+
+.bannerHeading h1 {
+    position: relative;
+    left: -3px;
 }
 
 .bannerHeading::before {

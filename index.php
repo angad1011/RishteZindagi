@@ -1,6 +1,6 @@
 <?php
 
-
+    header('Access-Control-Allow-Origin: *');
     include_once 'databaseConn.php';
     include_once './lib/requestHandler.php';
     $DatabaseCo = new DatabaseConn();

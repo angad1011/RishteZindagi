@@ -82,13 +82,13 @@
 		<?php } ?>
       </div>
       <div class="row">
-		  <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-16">
+		  <!-- <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-16">
 			<?php if($row_menu->footer_about_short == 'APPROVED'){ ?>
 			<h5 class="gt-text-darkblue gt-font-weight-600"><?php echo $lang['About Us']; ?></h5>
             <p><?php echo $configObj->getConfigFshortDescription(); ?></p>
 			<?php } ?>
-		  </div>
-		  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-16 text-center">
+		  </div> -->
+		  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-16">
 				<h5 class="gt-text-darkblue gt-font-weight-600">
                     <?php echo $lang['Join us on social']; ?>
                 </h5>

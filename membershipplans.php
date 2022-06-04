@@ -4,6 +4,12 @@
 	$DatabaseCo = new DatabaseConn();
 	include_once './class/Config.class.php';
 	$configObj = new Config();
+	
+	$menu_settings = $DatabaseCo->dbLink->query("SELECT menu_search,menu_success,menu_membership,menu_contact,menu_login,menu_signup FROM menu_settings WHERE menu_id=1");
+	$row_menu=mysqli_fetch_object($menu_settings);
+
+    $android_settings = $DatabaseCo->dbLink->query("SELECT android_app,android_app_link FROM site_config WHERE id=1");
+	$row_android=mysqli_fetch_object($android_settings);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -46,8 +52,7 @@
   			<div id="wrap">
   				<div id="main">
    					<!-- Header & Menu -->
-					<?php include "parts/header.php"; ?>
-					<?php include "parts/menu.php"; ?>
+					<?php include "parts/new_menu.php"; ?>
 					<!-- /. Header & Menu -->
                     
     				<div class="container">
@@ -63,7 +68,7 @@
                        				<label for="gt-plan-<?php echo $get_plan->plan_id;?>" class="col-xxl-4 col-xl-4 col-xs-16 col-lg-8" >
                     					<div class="gt-plan" id="setselected<?php echo $get_plan->plan_id;?>">
                     						<div class="gt-plan-header">
-                                				<h1><i class="fa fa-certificate"></i></h1>
+                                				<!-- <h1><i class="fa fa-certificate"></i></h1> -->
                             					<h4>
                                                 	<input type="radio" id="gt-plan-<?php echo $get_plan->plan_id;?>" name="plan" onChange="getselected('<?php echo $get_plan->plan_id;?>');" class="Table_Details inDisplayNone">
                                                     <span id="planname<?php echo $get_plan->plan_id;?>">

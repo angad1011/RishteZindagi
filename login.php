@@ -1,4 +1,5 @@
 <?php
+header('Access-Control-Allow-Origin: *');
 include_once 'databaseConn.php';
 include_once './lib/requestHandler.php';
 $DatabaseCo = new DatabaseConn();
@@ -106,8 +107,7 @@ if (isset($_POST['member_login'])) {
             <div id="wrap" class="gtLogin">
                 <div id="main">
 					<!-- Header & Menu -->
-					<?php include "parts/header.php"; ?>
-					<?php include "parts/menu.php"; ?>
+					<?php include "parts/new_menu.php"; ?>
 					<!-- /. Header & Menu -->
 					<div class="container">
 						<div class="row">

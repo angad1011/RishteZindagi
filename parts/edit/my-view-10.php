@@ -134,7 +134,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
     <span class="pull-left">
         <i class="fa fa-book"></i><?php echo $lang['Horoscope Information']; ?>
     </span>
-    <a class="pull-right btn gt-btn-orange" onClick="return edit10();">
+    <a class="pull-right btn btn-darkblue" onClick="return edit10();">
         <i class="fa fa-pencil-alt fa-fw"></i><font class="gt-margin-left-5"><?php echo $lang['EDIT']; ?></font>
     </a>
 </div>

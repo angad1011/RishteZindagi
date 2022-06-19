@@ -114,7 +114,7 @@ if(isset($_REQUEST['resend_verification'])){
                                         <input type="text" class="gt-form-control" name="email" data-validetta="required" placeholder="<?php echo $lang['Enter Email ID or User Id']; ?>">
                                     </div>
                                     <div class="form-group gt-margin-top-30">
-                                        <input type="submit" name="resend_verification" class="btn gt-btn-orange btn-block" name="<?php echo $lang['Submit']; ?>">
+                                        <input type="submit" name="resend_verification" class="btn btn-darkblue btn-block" name="<?php echo $lang['Submit']; ?>">
                                     </div>
                                     <input type="hidden" name="val_of_resend" value="<?php if(isset($_POST['resend_verification']) && $_POST['resend_verification']!=''){ echo $_POST['resend_verification'];}?>">
                                 </form>

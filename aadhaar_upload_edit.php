@@ -75,7 +75,7 @@
                     <?php include "parts/header.php"; ?>
                     <?php include "parts/menu.php"; ?>
                     <!-- /. Header & Menu -->
-					<div class="container gt-margin-top-20">
+					<div class="container margin-top-20">
 						<div class="row">
 							<div class="col-xxl-12 col-xxl-offset-2 col-xl-12 col-xl-offset-2  gt-margin-bottom-20 gt-upload-photo">
 								<h3 class="inPageTitle fontMerriWeather inThemeOrange text-center"><?php echo $lang['Document – Upload / Edit Details']; ?></h3>
@@ -84,7 +84,7 @@
 										<?php echo $lang['Uploading document will get your profile approval of authentication']; ?>
 									</p>
 								</article>
-								<div class="gt-profile-pic-panel gt-margin-top-20">
+								<div class="gt-profile-pic-panel margin-top-20">
 									<div class="row">
 										<div class="col-xxl-6 gtPreviewAadhaar">
 											<div class="thumbnail">
@@ -106,7 +106,7 @@
 												<input type="file" placeholder="Select File" class="gt-form-control" name="attachment"/>
 											</div>
 											<div class="col-xxl-16 text-center">
-											<input type="Submit" value="<?php echo $lang['Upload']; ?>" name="submit" class="btn gt-btn-orange inBtnTheme-2">
+											<input type="Submit" value="<?php echo $lang['Upload']; ?>" name="submit" class="btn btn-darkblue inBtnTheme-2">
 											</div>
 									   </form>
 									</div>

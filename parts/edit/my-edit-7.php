@@ -15,7 +15,7 @@
 	<span class="pull-left">
 	    <i class="fa fa-star"></i><?php echo $lang['Habits And Hobbies']; ?>
 	</span>
-	<a class="pull-right btn gt-btn-orange" onClick="return view77('edit');">
+	<a class="pull-right btn btn-darkblue" onClick="return view77('edit');">
 	    <i class="fas fa-pencil-alt fa-fw"></i><font class="gt-margin-left-5"><?php echo $lang['SUBMIT']; ?></font>
 	</a>
 </div>

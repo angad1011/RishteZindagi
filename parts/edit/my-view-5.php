@@ -134,7 +134,7 @@
     <span class="pull-left">
         <i class="fa fa-users"></i><?php echo $lang['Family Details']; ?>
     </span>
-    <a class="pull-right btn gt-btn-orange" onClick="return edit5();">
+    <a class="pull-right btn btn-darkblue" onClick="return edit5();">
         <i class="fas fa-pencil-alt fa-fw"></i><font class="gt-margin-left-5 "><?php echo $lang['EDIT']; ?></font>
     </a>
 </div>

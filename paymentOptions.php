@@ -128,10 +128,10 @@
 										<h4><?php echo $lang['Pay using razorpay']; ?></h4>
 										<p>
 											<?php echo $lang['Plan']; ?>: 
-											<span class="gt-text-orange">
+											<span class="text-red">
 												<?php echo $DatabaseCo->dbRow->plan_name;?>
 											</span> , <?php echo $lang['Amount']; ?>: 
-											<span class="gt-text-orange">
+											<span class="text-red">
 												<?php echo $DatabaseCo->dbRow->plan_amount_type.' '.$DatabaseCo->dbRow->plan_amount; ?>
 											</span>
 										</p>
@@ -161,33 +161,33 @@
 								<label for="gt-plan-5" class="col-xxl-16 col-xl-16 col-xs-16 col-lg-16 gt-payment-opt">
 									<div class="col-xxl-11 col-xl-11 col-lg-14 col-sm-14 col-xs-16">
 										<h4>Pay at Office</h4>
-										<p class="gt-margin-top-20">
+										<p class="margin-top-20">
 										  <?php echo $lang['Bank Name']; ?> :
-										  <span class="gt-text-orange">
+										  <span class="text-red">
 											<?php echo $bank_data->bank_name;?>
 										  </span>
 										</p>
 										<p>
 										  <?php echo $lang['Bank Account Type']; ?> :
-										  <span class="gt-text-orange">
+										  <span class="text-red">
 											<?php echo $bank_data->bank_account_type;?>
 										  </span>
 										</p>
 										<p>
 										  <?php echo $lang['Bank Account Name']; ?> :
-										  <span class="gt-text-orange">
+										  <span class="text-red">
 											<?php echo $bank_data->bank_account_name;?>
 										  </span>
 										</p>
 										<p>
 										  <?php echo $lang['Bank Account No']; ?> :
-										  <span class="gt-text-orange">
+										  <span class="text-red">
 											<?php echo $bank_data->bank_account_no;?>
 										  </span>
 										</p>
 										<p>
 										  <?php echo $lang['Bank IFSC Code']; ?> :
-										  <span class="gt-text-orange">
+										  <span class="text-red">
 											<?php echo $bank_data->bank_ifsc;?>
 										  </span>
 										</p>

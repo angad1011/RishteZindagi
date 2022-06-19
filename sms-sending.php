@@ -87,7 +87,7 @@ if (isset($_POST['to_email'])) {
         </div>
         <div class="form-group">
           <div class="col-sm-offset-4 col-sm-6 text-center">
-            <button class="btn gt-btn-orange btn-block gt-cursor" formaction="membershipplans">Upgrade Now
+            <button class="btn btn-darkblue btn-block gt-cursor" formaction="membershipplans">Upgrade Now
             </button>
           </div>
         </div>
@@ -170,10 +170,10 @@ if (isset($_POST['to_email'])) {
     <div id="body" style="display:none">
       <?php include "parts/header.php"; ?>
       <?php include "parts/menu-aft-login.php"; ?>
-      <div class="container gt-margin-top-20">
+      <div class="container margin-top-20">
         <div class="row">
           <div class="col-xxl-13 col-xxl-offset-3 col-xl-13 col-xl-offset-3">
-            <h2 class="gt-margin-top-0 gt-text-orange">
+            <h2 class="gt-margin-top-0 text-red">
               <span class="gt-font-weight-300">SMS
               </span> - Send
             </h2>
@@ -206,7 +206,7 @@ if (isset($_POST['to_email'])) {
                   
                  </div>
                  <div class="form-group text-center">
-                 	<input type="submit" value="SEND MESSAGE" name="sms" class="btn gt-btn-orange">
+                 	<input type="submit" value="SEND MESSAGE" name="sms" class="btn btn-darkblue">
 
                  </div>
               </div>

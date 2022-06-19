@@ -131,7 +131,7 @@ $getimg=mysqli_fetch_object($DatabaseCo->dbLink->query("select hor_photo,usernam
                     <?php include "parts/header.php"; ?>
                     <?php include "parts/menu.php"; ?>
                     <!-- /. Header & Menu -->
-					<div class="container gt-margin-top-20">
+					<div class="container margin-top-20">
 						<div class="row">
 							<div class="col-xxl-12 col-xxl-offset-4 col-xl-12 col-xl-offset-4 text-center gt-margin-bottom-20">
 								<h3 class="inPageTitle fontMerriWeather inThemeOrange"><?php echo $lang['Upload Horoscope']; ?></h3>
@@ -140,7 +140,7 @@ $getimg=mysqli_fetch_object($DatabaseCo->dbLink->query("select hor_photo,usernam
 								</article>
 							</div>
 							<div class="col-xxl-4 col-xl-4 gt-left-opt-msg">
-								<a class="btn gt-btn-darkblue btn-block hidden-xxl hidden-xl gt-margin-bottom-20" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
+								<a class="btn btn-darkblue btn-block hidden-xxl hidden-xl gt-margin-bottom-20" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
 									<?php echo $lang['Options']; ?> <i class="fa fa-angel-down"></i>
 								</a>
 								<div class="collapse mobile-collapse" id="collapseExample">
@@ -260,9 +260,9 @@ $getimg=mysqli_fetch_object($DatabaseCo->dbLink->query("select hor_photo,usernam
 									</div>
 									<div class="row">
 										<div class="col-xs-16 text-center">
-											<a href="edit-horoscope.php" class="btn gt-btn-orange"><i class="fa fa-pencil"></i> Edit Horoscope</a> 
+											<a href="edit-horoscope.php" class="btn btn-darkblue"><i class="fa fa-pencil"></i> Edit Horoscope</a> 
 										</div>
-										<div class="col-xs-16 text-center gt-margin-top-20 gt-margin-bottom-30">
+										<div class="col-xs-16 text-center margin-top-20 gt-margin-bottom-30">
 											<form>
 												<div class="row">
 													<div class="col-xs-4 gt-margin-bottom-15">

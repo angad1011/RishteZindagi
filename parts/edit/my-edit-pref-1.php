@@ -15,7 +15,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 ?>
 <div class="gt-panel-head">
     <span class="pull-left"><i class="fa fa-file"></i><?php echo $lang['Basic Preferences']; ?></span>
-    <a class="pull-right btn gt-btn-orange" onClick="return part_view_11('edit');">
+    <a class="pull-right btn btn-darkblue" onClick="return part_view_11('edit');">
         <i class="fas fa-pencil-alt fa-fw"></i><font class="gt-margin-left-5"><?php echo $lang['SUBMIT']; ?></font>
     </a>
 </div>

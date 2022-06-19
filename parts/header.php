@@ -25,7 +25,7 @@
                             </div>
                         </div>
                         <div class="col-xxl-4 col-xl-4 col-lg-4 form-group mt-10">
-                            <input type="submit" class="btn gt-btn-orange btn-block gt-btn-lg" name="member_login" value="<?php echo $lang['LOGIN']; ?>">
+                            <input type="submit" class="btn btn-darkblue btn-block gt-btn-lg" name="member_login" value="<?php echo $lang['LOGIN']; ?>">
                         </div>
                     </form>	
                 </div>
@@ -42,7 +42,7 @@
             
             <!-- Header login mobile button-->
             <div class="col-xs-8 visible-xs visible-sm visible-md text-right">
-            	<a class="btn gt-btn-orange mt-15" role="button" data-toggle="collapse" href="#collapseHeadLogin" aria-expanded="false" aria-controls="collapseHeadLogin">
+            	<a class="btn btn-darkblue mt-15" role="button" data-toggle="collapse" href="#collapseHeadLogin" aria-expanded="false" aria-controls="collapseHeadLogin">
  					<?php echo $lang['Login']; ?>
 				</a>
 			</div>
@@ -67,7 +67,7 @@
                             	</div>
                         	</div>
 							<div class="col-xxl-4 col-xl-4 col-lg-4 form-group mt-10">
-								<input type="submit" class="btn gt-btn-orange btn-block gt-btn-lg" name="member_login" value="<?php echo $lang['LOGIN']; ?>">
+								<input type="submit" class="btn btn-darkblue btn-block gt-btn-lg" name="member_login" value="<?php echo $lang['LOGIN']; ?>">
 							</div>
                     	</form>	
 					</div>
@@ -97,7 +97,7 @@
             <!-- /. Logo -->
 			<!-- Header mobile button-->
             <div class="col-sm-10 col-xs-10 col-md-10 visible-xs visible-sm visible-md pull-right text-right gt-padding-top-10">
-            	<a class="btn gt-btn-orange" role="button" data-toggle="collapse" href="#collapseHeadDetails" aria-expanded="false" aria-controls="collapseHeadDetails">
+            	<a class="btn btn-darkblue" role="button" data-toggle="collapse" href="#collapseHeadDetails" aria-expanded="false" aria-controls="collapseHeadDetails">
 					<p class="gt-margin-bottom-0 gt-margin-top-0"><?php echo $_SESSION['uname']; ?></b>&nbsp;&nbsp;<i class="fa fa-angle-down"></i></p>
 				</a>
 			</div>
@@ -114,7 +114,7 @@
                         
 						<!-- Username & last login details -->
                 		<div class="col-xxl-11 col-xs-12 col-md-11">
-                    		<h5 class="gt-margin-bottom-5 gt-margin-top-5"><b><?php echo $_SESSION['uname']; ?></b> : <b><span class="gt-text-orange"><?php echo $_SESSION['user_id']; ?></span></b> </h5>
+                    		<h5 class="gt-margin-bottom-5 gt-margin-top-5"><b><?php echo $_SESSION['uname']; ?></b> : <b><span class="text-red"><?php echo $_SESSION['user_id']; ?></span></b> </h5>
 							<?php
 								$matri_id_logged=$_SESSION['user_id'];
 								$SQL_STATEMENT_GETLOG=$DatabaseCo->dbLink->query("SELECT last_login FROM register WHERE matri_id='$matri_id_logged'");
@@ -122,7 +122,7 @@
 								if($logged_data->last_login != '' || $logged_data->last_login != NULL ){
 							?>
 							<p class="gt-margin-bottom-5 font-13"><?php echo $lang['Last Login']; ?>: 
-								<span class="gt-text-orange">
+								<span class="text-red">
 									<?php
                                         $date = strtotime($_SESSION['last_login']);
                                         echo date('H:i , jS F Y', $date);
@@ -130,7 +130,7 @@
 								</span>
 							</p>
 							<?php } ?>
-                            <p class="gt-margin-bottom-5 font-13"><?php echo $lang['Membership']; ?> : <span class="gt-text-orange"><?php echo $_SESSION['mem_status']; ?></span></p>
+                            <p class="gt-margin-bottom-5 font-13"><?php echo $lang['Membership']; ?> : <span class="text-red"><?php echo $_SESSION['mem_status']; ?></span></p>
                             <h6 class="gt-margin-bottom-0 gt-margin-top-5">
                                 <?php if($_SESSION['mem_status']=='Free'){?>
                                 <a href="membershipplans"><?php echo $lang['Upgrade Membership']; ?> <i class="fa fa-caret-right gt-margin-right-5"></i></a>

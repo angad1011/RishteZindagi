@@ -15,7 +15,7 @@
         </div>
         <div class="row">
             <div class="col-xxl-16 col-xl-16 col-md-16 col-lg-16 col-sm-16">
-                <h5 class="gt-text-orange">
+                <h5 class="text-red">
                     <i class="fas fa-paper-plane gt-margin-right-10"></i> <?php echo $lang['Photo Request Sent']; ?>
                 </h5>
             </div>

@@ -123,7 +123,7 @@ $DatabaseCo->dbRow = mysqli_fetch_object($SQLSTATEMENT);
 ?>
 <div class="gt-panel-head">
     <span class="pull-left"><i class="fa fa-star"></i><?php echo $lang['About Me']; ?></span>
-    <a class="pull-right btn gt-btn-orange" onClick="return edit2();">
+    <a class="pull-right btn btn-darkblue" onClick="return edit2();">
         <i class="fas fa-pencil-alt fa-fw"></i><font class="gt-margin-left-5"><?php echo $lang['EDIT']; ?></font>
     </a>
 </div>

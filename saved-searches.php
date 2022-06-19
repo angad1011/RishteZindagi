@@ -86,7 +86,7 @@
 											<h5>
 												<i class="fas fa-calendar-alt gt-margin-right-5"></i><?php echo date('d M Y ,H:i A', strtotime($get_ss_data->save_date)); ?>
 											</h5>
-											<a href="search_result.php?ss_id=<?php echo$get_ss_data->ss_id; ?>" class="btn gt-btn-orange"><?php echo $lang['Search']; ?></a>
+											<a href="search_result.php?ss_id=<?php echo$get_ss_data->ss_id; ?>" class="btn btn-darkblue"><?php echo $lang['Search']; ?></a>
 										</div>
 									</div>
                     				<?php } } else { ?>

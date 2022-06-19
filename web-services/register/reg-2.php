@@ -738,7 +738,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 			<?php } ?>
             <div class="form-group text-center">
                 <div class="row">
-                    <input type="submit" name="reg2sub" value="<?php echo $lang['Continue']; ?>" class="btn gt-btn-orange inRegBtn">
+                    <input type="submit" name="reg2sub" value="<?php echo $lang['Continue']; ?>" class="btn btn-darkblue inRegBtn">
                 </div>
             </div>
         </form>

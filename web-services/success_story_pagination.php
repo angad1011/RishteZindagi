@@ -42,7 +42,7 @@ function showData($data,$con,$limit,$adjacent){
 						<div class="caption text-center">
 							<h5>'.$get_st_photo->bridename.' & '.$get_st_photo->groomname.'</h5>
 							<p style="word-break: break-word;">'.substr($get_st_photo->successmessage,0,70).'</p>
-							<b class="btn gt-btn-orange btn-sm" >Read More</b>
+							<b class="btn btn-darkblue btn-sm" >Read More</b>
 						</div>
               		</div>
             	</a>
@@ -57,14 +57,14 @@ function showData($data,$con,$limit,$adjacent){
                             	<a href="" class="thumbnail">
 									<img src="SuccessStory/'.$get_st_photo->weddingphoto.'" style="width:100%;height:350px;">
                                 </a>
-                            	<div class="row gt-margin-top-20">
+                            	<div class="row margin-top-20">
                                 	<div class="col-xs-16">
                                     	<h4 class="gt-text-darkblue">Full Success Story</h4>
                                         <p >'.$get_st_photo->successmessage.'</p>
                                     </div>
                                 </div>		
                              
-									  <div class="row gt-margin-top-20">
+									  <div class="row margin-top-20">
                                 	<div class="col-xs-16">
                                         <p>Marrage Date - <span class="text-danger">'.date('F j, Y', (strtotime($get_st_photo->marriagedate))).'</span></p>
                                     </div>

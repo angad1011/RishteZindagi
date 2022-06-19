@@ -140,14 +140,14 @@ if (isset($_POST['member_login'])) {
 										</div>
 									</div>
 									<div class="form-group text-center">
-										<input type="submit" class="btn gt-btn-orange btn-block" name="member_login" value="<?php echo $lang['Login Now']; ?>">
+										<input type="submit" class="btn btn-darkblue btn-block" name="member_login" value="<?php echo $lang['Login Now']; ?>">
 									</div>
                                     <h5 class="text-center">OR</h5>
                                     <div class="form-group text-center">
-										<a href="#loginWithOTP" data-toggle="modal" class="btn gt-btn-darkblue btn-block"><?php echo $lang['Login With OTP']; ?></a>
+										<a href="#loginWithOTP" data-toggle="modal" class="btn btn-darkblue btn-block"><?php echo $lang['Login With OTP']; ?></a>
 									</div>
 									<div class="clearfix"></div>
-                                    <h5 class="text-center gt-margin-top-20">Not received email verification link?</h5>
+                                    <h5 class="text-center margin-top-20">Not received email verification link?</h5>
                                     <div class="form-group text-center">
 										<a href="resend_email_verify" class="btn gt-btn-blue btn-block"><?php echo $lang['Resend Email Verification']; ?></a>
 									</div>

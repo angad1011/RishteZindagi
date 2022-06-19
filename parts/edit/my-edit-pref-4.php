@@ -16,7 +16,7 @@
     <span class="pull-left">
         <i class="fa fa-map-marker"></i><?php echo $lang['Location Preference']; ?>
     </span>
-    <a class="pull-right btn gt-btn-orange" onClick="return part_view_44('edit');">
+    <a class="pull-right btn btn-darkblue" onClick="return part_view_44('edit');">
         <i class="fas fa-pencil-alt fa-fw"></i><font class="gt-margin-left-5"><?php echo $lang['SUBMIT']; ?></font>
     </a>
 </div>

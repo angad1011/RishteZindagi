@@ -98,7 +98,7 @@
                             <div class="col-xxl-9 col-xl-9 col-lg-12 pull-right">
                             	<div class="row">
                                 	<div class="col-xxl-6 col-xl-6 col-xs-16 col-lg-6 gt-margin-top-10">
-                            			<a href="" class="btn gt-btn-orange  btn-block">
+                            			<a href="" class="btn btn-darkblue  btn-block">
                                 			Send Interest
                                 		</a>
                                     </div>

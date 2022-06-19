@@ -1,9 +1,9 @@
 	<div class="col-xxl-4 col-xl-4 gt-left-exp">
-		<a class="btn gt-btn-orange btn-block gt-margin-bottom-15 visible-xs visible-sm visible-md btn-md" role="button" data-toggle="collapse" href="#collapseLeftPanel" aria-expanded="false" aria-controls="collapseLeftPanel">
+		<a class="btn btn-darkblue btn-block gt-margin-bottom-15 visible-xs visible-sm visible-md btn-md" role="button" data-toggle="collapse" href="#collapseLeftPanel" aria-expanded="false" aria-controls="collapseLeftPanel">
     		Options &nbsp;&nbsp;<i class="fa fa-angle-down"></i>
 		</a>
 		<div class="collapse mobile-collapse gt-padding-bottom-15" id="collapseLeftPanel">
-    		<a href="exp-interest.php" class="btn gt-btn-orange gt-btn-xl mb-20 btn-block"><i class="fa fa-star gt-margin-right-10 fa-spin"></i><?php echo $lang['']; ?>All Express Interest</a>
+    		<a href="exp-interest.php" class="btn btn-darkblue gt-btn-xl mb-20 btn-block"><i class="fa fa-star gt-margin-right-10 fa-spin"></i><?php echo $lang['']; ?>All Express Interest</a>
         	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
  				<div class="panel panel-default">
     				<div class="panel-heading" role="tab" id="headingOne">

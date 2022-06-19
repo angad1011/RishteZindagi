@@ -57,7 +57,7 @@
                     <?php include "parts/header.php"; ?>
                     <?php include "parts/menu.php"; ?>
                     <!-- /. Header & Menu -->
-    				<div class="container gt-margin-top-20">
+    				<div class="container margin-top-20">
     					<div class="row">
         					<div class="col-xxl-13 col-xxl-offset-3 col-xl-13 col-xl-offset-3 text-center">
             					<h2 class="inPageTitle fontMerriWeather inThemeOrange">

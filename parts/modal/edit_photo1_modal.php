@@ -25,11 +25,11 @@
   					<?php } ?>
    				<?php }?>
    				<input type="file" name="photo1" id="photo1" onchange="readURL1(this);">
-   				<label for="photo1" class="btn gt-btn-orange btn-block gt-margin-top-20">
+   				<label for="photo1" class="btn btn-darkblue btn-block margin-top-20">
 					<?php echo $lang['Select Image']; ?>
 				</label>
 				<div class="form-group text-center mt-3">
-					<input type="submit" name="editPhoto1" value="<?php echo $lang['SUBMIT']; ?>" class="btn gt-btn-darkblue btn-block gt-margin-top-20">
+					<input type="submit" name="editPhoto1" value="<?php echo $lang['SUBMIT']; ?>" class="btn btn-darkblue btn-block margin-top-20">
 				</div>
 				</center>
        		</div>

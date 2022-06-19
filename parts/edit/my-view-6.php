@@ -122,7 +122,7 @@
 ?>
 <div class="gt-panel-head">
     <span class="pull-left"><i class="fa fa-map-marker"></i><?php echo $lang['Location Information']; ?></span>
-    <a class="pull-right btn gt-btn-orange" onClick="return edit6();">
+    <a class="pull-right btn btn-darkblue" onClick="return edit6();">
         <i class="fas fa-pencil-alt fa-fw"></i><font class="gt-margin-left-5"><?php echo $lang['EDIT']; ?></font>
     </a>
 </div>

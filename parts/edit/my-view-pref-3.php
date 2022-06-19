@@ -164,7 +164,7 @@
 ?>
 <div class="gt-panel-head">
     <span class="pull-left"><i class="fa fa-book"></i><?php echo $lang['Religion Preference']; ?></span>
-    <a class="pull-right btn gt-btn-orange" onClick="return part_edit_3();">
+    <a class="pull-right btn btn-darkblue" onClick="return part_edit_3();">
         <i class="fas fa-pencil-alt fa-fw"></i><font class="gt-margin-left-5"><?php echo $lang['EDIT']; ?></font>
     </a>
 </div>

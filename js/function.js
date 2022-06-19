@@ -303,7 +303,7 @@ function sendreminder(expid)
 			$('#reminder'+expid+'').fadeOut('slow');
 			$("#loaderID").css("opacity",1);
 						$("#loaderID").css("z-index",9999);
-				$('#loaderID').html('<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6" style="position: fixed; z-index: 9999; opacity: 1; top: 40%; left: 40%;" ><div class="col-lg-16 col-md-16 col-sm-16 btn gt-btn-darkblue"><font class="gt-margin-left-5">You have successfully sent reminder....  </font></div></div>');
+				$('#loaderID').html('<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6" style="position: fixed; z-index: 9999; opacity: 1; top: 40%; left: 40%;" ><div class="col-lg-16 col-md-16 col-sm-16 btn btn-darkblue"><font class="gt-margin-left-5">You have successfully sent reminder....  </font></div></div>');
 				
 				setTimeout(function() {
 						$("#loaderID").css("opacity",0);

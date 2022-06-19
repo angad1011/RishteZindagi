@@ -52,7 +52,7 @@
 					<div class="container">
 						<div class="row">
 							<aside class="col-xxl-4 col-xl-4 col-xs-16">
-								<a class="btn gt-btn-darkblue btn-block hidden-xxl hidden-xl gt-margin-bottom-20 gt-margin-top-15" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+								<a class="btn btn-darkblue btn-block hidden-xxl hidden-xl gt-margin-bottom-20 gt-margin-top-15" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
 									<?php echo $lang['Options']; ?> <i class="fa fa-angel-down"></i>
 								</a>
 								<div class="collapse mobile-collapse" id="collapseExample">
@@ -66,7 +66,7 @@
 									<p class="inPageSubTitle mb-20"><?php echo $lang['One way match is the profile show in perticular criteria at its best.its help you to find out your life partner easily']; ?>.</p>
 								</article>                 
 								 <div id="loaderID" style="position:fixed; left:50%; top:50%; z-index:-1; opacity:0">
-									<div class="col-lg-16 col-md-16 col-sm-16 btn gt-btn-orange"><font class="gt-margin-left-5">Loding ...&nbsp;&nbsp;</font></div>
+									<div class="col-lg-16 col-md-16 col-sm-16 btn btn-darkblue"><font class="gt-margin-left-5">Loding ...&nbsp;&nbsp;</font></div>
 								 </div>	
 								 <div id="pagination"></div>
 							</div>      

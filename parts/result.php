@@ -3,7 +3,7 @@
                                 	<div class="thumbnail">
 								        <?php include('search-result-photo.php');?>
                                     </div>
-                                    <h5 class="text-center gt-text-orange">
+                                    <h5 class="text-center text-red">
                                     	<?php if($username_settings->username_setting == 'full_username'){?>
                                             <?php echo $Row->username; ?>(<?php echo $Row->matri_id; ?>)
 										<?php }elseif($username_settings->username_setting == 'first_surname'){?>
@@ -28,7 +28,7 @@
 											if(isset($sql_exp) && $sql_exp->receiver_response=='Pending'){
 									?>
                             		
-                                    <button class="btn gt-btn-darkblue btn-block gt-margin-top-5 gtFontSMXS12" onClick="sendreminder(<?php echo $sql_exp->ei_id?>);" id="reminder<?php echo $sql_exp->ei_id;?>" title="Send Reminder" >
+                                    <button class="btn btn-darkblue btn-block gt-margin-top-5 gtFontSMXS12" onClick="sendreminder(<?php echo $sql_exp->ei_id?>);" id="reminder<?php echo $sql_exp->ei_id;?>" title="Send Reminder" >
                                     	<i class="fa fa-bell gt-margin-right-5"></i><?php echo $lang['Send Reminder']; ?>
                                     </button>
 									<?php }elseif(isset($sql_exp) && $sql_exp->receiver_response=='Accept'){?>
@@ -36,7 +36,7 @@
 									<?php }elseif(isset($sql_exp) && $sql_exp->receiver_response=='Reject'){?>
 										<h5 class="interestRejected"><?php echo $lang['Interest Rejected']; ?></h5>
                                     <?php }else{?>	
-                                        <button class="btn gt-btn-darkblue btn-block gt-margin-top-5 gtFontSMXS12" onclick="ExpressInterest('<?php echo $Row->matri_id;?>')" title="Send Interest" data-target="#myModal1" data-toggle="modal" data-backdrop="static" data-keyboard="false">
+                                        <button class="btn btn-darkblue btn-block gt-margin-top-5 gtFontSMXS12" onclick="ExpressInterest('<?php echo $Row->matri_id;?>')" title="Send Interest" data-target="#myModal1" data-toggle="modal" data-backdrop="static" data-keyboard="false">
                                     		<i class="fa fa-heart-o"></i> <?php echo $lang['Send Interest']; ?>
                                     	</button>
                                     <?php }}?>

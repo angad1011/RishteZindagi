@@ -55,12 +55,12 @@
                     <?php include "parts/header.php"; ?>
                     <?php include "parts/menu.php"; ?>
                     <!-- /. Header & Menu -->
-					<div class="container gt-margin-top-20 inCMS">
+					<div class="container margin-top-20 inCMS">
 						<div class="row">
 							<div class="col-xs-16 col-lg-16 col-xxl-12 col-offset-2 col-xl-12 col-xl-offset-2">
 								<div class="gt-panel">
 									<div class="gt-panel-border-orange">
-										<h2 class="gt-text-orange text-center fontMerriWeather">
+										<h2 class="text-red text-center fontMerriWeather">
 								            <?php if(isset($res2)){ echo $res2->cms_title; } ?>
                                         </h2>
 									</div>

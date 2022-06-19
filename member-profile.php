@@ -200,7 +200,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
       				<div class="container">
             			<div class="row">
               				<div class="col-xxl-14 col-xxl-offset-1 col-xl-16 col-xl-offset-0 col-lg-16 col-md-16 col-sm-16">
-                				<h3 class="gt-text-orange">
+                				<h3 class="text-red">
 									<?php echo $Row->matri_id; ?> - 
                                     <?php 
                                         if($site_settings->username_setting == 'full_username'){ 
@@ -928,7 +928,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 															<div class="col-xs-6"> <?php echo $lang['Horoscope']; ?> : </div>
 															<div class="col-xs-10">
 																<b>
-                             										<a href="#myModal" data-toggle="modal" class="btn gt-btn-orange btn-sm"><?php echo $lang['View Horoscope']; ?></a>
+                             										<a href="#myModal" data-toggle="modal" class="btn btn-darkblue btn-sm"><?php echo $lang['View Horoscope']; ?></a>
                             									</b>
 															</div>
 														</div>
@@ -1207,7 +1207,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 
 											?>
 											<h4>	
-                        						<?php echo $lang['Your profile matches with']; ?> <b><?php echo $i; ?> / 19</b> of <b class="gt-text-orange"><?php echo $Row->firstname; ?>'s</b> <?php echo $lang['preferences']; ?>!
+                        						<?php echo $lang['Your profile matches with']; ?> <b><?php echo $i; ?> / 19</b> of <b class="text-red"><?php echo $Row->firstname; ?>'s</b> <?php echo $lang['preferences']; ?>!
                       						</h4> 
 										</div>
 										<div class="col-xs-3">
@@ -1231,9 +1231,9 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 								</div>
 								<div class="col-xs-16 col-xxl-16 gt-margin-top-15">
 									<h3 class="pb-15 inBorderExtraLightGrey font-15">
-                    					<i class="fa fa-file gt-margin-right-10 gt-text-orange"></i><?php echo $lang['Basic Preferences']; ?>
+                    					<i class="fa fa-file gt-margin-right-10 text-red"></i><?php echo $lang['Basic Preferences']; ?>
                  				 	</h3>
-									<div class="row gt-margin-top-20 inMemPartnerPrefDet">
+									<div class="row margin-top-20 inMemPartnerPrefDet">
 										<div class="col-xxl-8 col-xs-16">
 											<div class="col-xxl-6 col-xs-5 pt-5">
 												<label class="font-13"> 
@@ -1301,7 +1301,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 											<?php } ?>
 										</div>
 									</div>
-									<div class="row gt-margin-top-20 inMemPartnerPrefDet">
+									<div class="row margin-top-20 inMemPartnerPrefDet">
 										<div class="col-xxl-8 col-xs-16">
 											<div class="col-xxl-6 col-xs-5 pt-5">
 												<label class="font-13">
@@ -1378,7 +1378,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 										</div>
 										<?php } ?>
 									</div>
-									<div class="row gt-margin-top-20 inMemPartnerPrefDet">
+									<div class="row margin-top-20 inMemPartnerPrefDet">
 										<?php if($row_field->part_smoke == 'Yes'){ ?>
 										<div class="col-xxl-8 col-xs-16">
 											<div class="col-xxl-6 col-xs-5 pt-5">
@@ -1438,7 +1438,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 										</div>
 										<?php } ?>
 									</div>
-									<div class="row gt-margin-top-20 inMemPartnerPrefDet">
+									<div class="row margin-top-20 inMemPartnerPrefDet">
 										<div class="col-xxl-8 col-xs-16">
 											<div class="col-xxl-6 col-xs-5 pt-5">
 												<label class="font-13"> <b><?php echo $lang['Physical status']; ?> :</b> </label>
@@ -1470,9 +1470,9 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 								</div>
 								<div class="col-xs-16 col-xxl-16 gt-margin-top-15">
 									<h3 class="pb-15 inBorderExtraLightGrey font-15">
-                    					<i class="fa fa-university gt-margin-right-10 gt-text-orange"></i><?php echo $lang['Education / Profession Preference']; ?>
+                    					<i class="fa fa-university gt-margin-right-10 text-red"></i><?php echo $lang['Education / Profession Preference']; ?>
                   					</h3>
-									<div class="row gt-margin-top-20 inMemPartnerPrefDet">
+									<div class="row margin-top-20 inMemPartnerPrefDet">
 										<div class="col-xxl-8 col-xs-16">
 											<div class="col-xxl-6 col-xs-5 pt-5">
 												<label class="font-13"> <b><?php echo $lang['Education']; ?>  :</b> </label>
@@ -1530,7 +1530,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 										</div>
 										<?php } ?>
 									</div>
-									<div class="row gt-margin-top-20 inMemPartnerPrefDet">
+									<div class="row margin-top-20 inMemPartnerPrefDet">
 										<div class="col-xxl-8 col-xs-16">
 											<div class="col-xxl-6 col-xs-5 pt-5">
 												<label class="font-13"> <b><?php echo $lang['Employed in']; ?> :</b> </label>
@@ -1593,9 +1593,9 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 								</div>
 								<div class="col-xs-16 col-xxl-16 gt-margin-top-15">
 									<h3 class="pb-15 inBorderExtraLightGrey font-15">
-                    					<i class="fa fa-book gt-margin-right-10 gt-text-orange"></i><?php echo $lang['Religion Preference']; ?>
+                    					<i class="fa fa-book gt-margin-right-10 text-red"></i><?php echo $lang['Religion Preference']; ?>
                   					</h3>
-									<div class="row gt-margin-top-20 inMemPartnerPrefDet">
+									<div class="row margin-top-20 inMemPartnerPrefDet">
 										<div class="col-xxl-8 col-xs-16">
 											<div class="col-xxl-6 col-xs-5 pt-5">
 												<label class="font-13"> <b><?php echo $lang['Religion']; ?> :</b> </label>
@@ -1645,7 +1645,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 											<?php } ?>
 										</div>
 									</div>
-									<div class="row gt-margin-top-20 inMemPartnerPrefDet">
+									<div class="row margin-top-20 inMemPartnerPrefDet">
 										<?php if($row_field->part_dosh == 'Yes'){ ?>
 										<div class="col-xxl-8 col-xs-16">
 											<div class="col-xxl-6 col-xs-5 pt-5">
@@ -1708,7 +1708,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 										</div>
 										<?php } ?>
 									</div>
-									<div class="row gt-margin-top-20 inMemPartnerPrefDet">
+									<div class="row margin-top-20 inMemPartnerPrefDet">
 										<div class="col-xxl-8 col-xs-16">
 											<div class="col-xxl-6 col-xs-5 pt-5">
 												<label class="font-13"> <b><?php echo $lang['Mother Tongue']; ?> :</b> </label>
@@ -1768,9 +1768,9 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 								</div>
 							<div class="col-xs-16 col-xxl-16 gt-margin-top-15">
 								<h3 class="pb-15 inBorderExtraLightGrey font-15">
-                    				<i class="fa fa-map-marker gt-margin-right-10 gt-text-orange"></i><?php echo $lang['Location Preference']; ?>
+                    				<i class="fa fa-map-marker gt-margin-right-10 text-red"></i><?php echo $lang['Location Preference']; ?>
                   				</h3>
-								<div class="row gt-margin-top-20 inMemPartnerPrefDet">
+								<div class="row margin-top-20 inMemPartnerPrefDet">
 									<div class="col-xxl-8 col-xs-16">
 										<div class="col-xxl-6 col-xs-5 pt-5">
 											<label class="font-13"><b><?php echo $lang['Country']; ?>  :</b> </label>
@@ -1826,7 +1826,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 										</div>
 									<?php } ?>
 								</div>
-								<div class="row gt-margin-top-20 inMemPartnerPrefDet">
+								<div class="row margin-top-20 inMemPartnerPrefDet">
 									<?php if($row_field->part_city == 'Yes'){ ?>
 									<div class="col-xxl-8 col-xs-16">
 										<div class="col-xxl-6 col-xs-5 pt-5">
@@ -1862,9 +1862,9 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 							<?php if($row_field->part_expect == 'Yes'){ ?>
 							<div class="col-xs-16 col-xxl-16 gt-margin-top-15">
 								<h3 class="pb-15 inBorderExtraLightGrey font-15">
-                 					<i class="fa fa-star gt-margin-right-10 gt-text-orange"></i><?php echo $lang['Partner Expectation']; ?>
+                 					<i class="fa fa-star gt-margin-right-10 text-red"></i><?php echo $lang['Partner Expectation']; ?>
 								</h3>
-								<div class="row gt-margin-top-20 inMemPartnerPrefDet">
+								<div class="row margin-top-20 inMemPartnerPrefDet">
 									<div class="col-xxl-16 col-xs-16">
 										<div class="col-xxl-3 col-xs-5 pt-5">
 											<label class="font-13"> <b>Expectations :</b> </label>

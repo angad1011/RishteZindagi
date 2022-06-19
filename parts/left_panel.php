@@ -163,7 +163,7 @@ if ($sel_left_search->num_rows > 0) {
                 while ($get_ss_data = mysqli_fetch_object($sel_left_search)) {
                     ?>
                     <a href="search_result.php?ss_id=<?php echo$get_ss_data->ss_id; ?>" class="col-xxl-16 col-xl-16 col-xs-16 col-lg-8 ripplelink" >
-                        <h4 class="gt-text-orange">
+                        <h4 class="text-red">
                             <?php echo $get_ss_data->ss_name; ?>
                         </h4>
                         <h5>

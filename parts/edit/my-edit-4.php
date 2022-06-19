@@ -17,7 +17,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 ?>
 <div class="gt-panel-head">
     <span class="pull-left"><i class="fa fa-university"></i><?php echo $lang['Education / Profession Information']; ?></span>
-    <a class="pull-right btn gt-btn-orange" onClick="return view44('edit');">
+    <a class="pull-right btn btn-darkblue" onClick="return view44('edit');">
         <i class="fas fa-pencil-alt fa-fw"></i><font class="gt-margin-left-5"><?php echo $lang['SUBMIT']; ?></font>
     </a>
 </div>

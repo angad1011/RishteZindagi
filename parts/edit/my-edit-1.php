@@ -13,10 +13,10 @@
 ?>
 <div class="gt-panel-head">
     <span class="pull-left"><i class="fa fa-file"></i><?php echo $lang['Basic Details']; ?></span>
-    <a class="pull-right btn gt-btn-orange" onClick="return view11('edit');">
+    <a class="pull-right btn btn-darkblue" onClick="return view11('edit');">
         <i class="fa fa-pencil-alt"></i><font class="gt-margin-left-5"><?php echo $lang['SUBMIT']; ?></font>
     </a>
-	<a href="#myModal" data-toggle="modal" class="pull-right btn gt-btn-orange gt-margin-right-5">
+	<a href="#myModal" data-toggle="modal" class="pull-right btn btn-darkblue gt-margin-right-5">
         <i class="fa fa-pencil-alt"></i><font class="gt-margin-left-5"><?php echo $lang['EDIT MOBILE NO']; ?></font>
     </a>
 </div>
@@ -355,7 +355,7 @@
 						</div>
 						<div class="col-xxl-16 text-center">
 							<div class="form-group">
-								<input type="submit" class="btn gt-btn-orange gt-margin-top-5" name="changeMobile" class="gt-form-control" value="<?php echo $lang['Submit']; ?>">
+								<input type="submit" class="btn btn-darkblue gt-margin-top-5" name="changeMobile" class="gt-form-control" value="<?php echo $lang['Submit']; ?>">
 							</div>
 						</div>
 					</div>

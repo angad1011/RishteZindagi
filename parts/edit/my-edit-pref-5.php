@@ -11,7 +11,7 @@
 	<span class="pull-left">
 	    <i class="fa fa-star"></i><?php echo $lang['Patner Expectation']; ?>
 	</span>
-	<a class="pull-right btn gt-btn-orange" onClick="return part_view_5('edit');">
+	<a class="pull-right btn btn-darkblue" onClick="return part_view_5('edit');">
 	    <i class="fas fa-pencil-alt fa-fw"></i><font class="gt-margin-left-5"><?php echo $lang['SUBMIT']; ?></font>
 	</a>
 </div>

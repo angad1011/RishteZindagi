@@ -53,7 +53,7 @@ if($_SESSION['user_id']!=''){
                             <h5><?php echo $lang['Member is blocked by you,if you wish to see contact details please unblock first.']; ?></h5>
                         </div>
                         <div class="col-sm-16 text-center gt-margin-bottom-20">
-        	                <a href="blocklisted-members" class="btn gt-btn-orange">
+        	                <a href="blocklisted-members" class="btn btn-darkblue">
         		                <?php echo $lang['Unblock Now']; ?>
         	                </a>
                         </div>
@@ -122,7 +122,7 @@ if($_SESSION['user_id']!=''){
 				<p class="pull-left text-danger"><?php echo $lang['Date']; ?> - 
 					<small><?php echo date('l j F ,Y g:i A');?></small>
 				</p>
-				<button type="button" name="send-interest" value="submit" class="btn gt-btn-darkblue" id="sent_interest"><?php echo $lang['Send Interest']; ?></button>
+				<button type="button" name="send-interest" value="submit" class="btn btn-darkblue" id="sent_interest"><?php echo $lang['Send Interest']; ?></button>
 				<button type="button" class="btn btn-danger" data-dismiss="modal" onclick="javascript:window.location.reload()"><?php echo $lang['Close']; ?></button>
 			</div>
 		</form>
@@ -147,7 +147,7 @@ if($_SESSION['user_id']!=''){
 			</div>
 		</form>
 		<div class="modal-footer">
-			<a href="membershipplans" type="button" class="btn gt-btn-orange"><?php echo $lang['Upgrade Now']; ?></a>
+			<a href="membershipplans" type="button" class="btn btn-darkblue"><?php echo $lang['Upgrade Now']; ?></a>
 			<a href="#" type="button" class="btn btn-default" data-dismiss="modal"><?php echo $lang['Close']; ?></a>
 		</div>
 	</div>
@@ -191,7 +191,7 @@ if($_SESSION['user_id']!=''){
                             <h5><?php echo $lang['Member is blocked by you,if you wish to see contact details please unblock first.']; ?></h5>
                         </div>
                         <div class="col-sm-16 text-center gt-margin-bottom-20">
-                            <a href="blocklisted-members" class="btn gt-btn-orange"><?php echo $lang['Unblock Now']; ?></a>
+                            <a href="blocklisted-members" class="btn btn-darkblue"><?php echo $lang['Unblock Now']; ?></a>
                         </div>
                     </div>
                 </div>
@@ -258,7 +258,7 @@ if($_SESSION['user_id']!=''){
                     <p class="pull-left text-danger"><?php echo $lang['Date']; ?> - 
                         <small><?php echo date('l j F ,Y g:i A');?></small>
                     </p>
-                    <button type="button" name="send-interest" value="submit" class="btn gt-btn-darkblue" id="sent_interest"><?php echo $lang['Send Interest']; ?></button>
+                    <button type="button" name="send-interest" value="submit" class="btn btn-darkblue" id="sent_interest"><?php echo $lang['Send Interest']; ?></button>
                     <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="javascript:window.location.reload()"><?php echo $lang['Close']; ?></button>
                 </div>
             </form>
@@ -280,7 +280,7 @@ if($_SESSION['user_id']!=''){
                 </form>
             </div>
             <div class="modal-footer">
-                <a href="login" class="btn gt-btn-orange"><?php echo $lang['Login Now']; ?></a>
+                <a href="login" class="btn btn-darkblue"><?php echo $lang['Login Now']; ?></a>
             </div>
         </div>
     </div>

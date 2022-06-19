@@ -240,7 +240,7 @@ body {
     color: #797979;
 }
 
-.gtImageUpload .gt-btn-darkblue {
+.gtImageUpload .btn-darkblue {
     padding: 13px 25px 13px 25px;
     font-size: 14px;
     font-weight: 600;
@@ -261,13 +261,13 @@ body {
     display: none;
 }
 
-.editPhotoModal .gt-btn-orange {
+.editPhotoModal .btn-darkblue {
     padding: 10px 15px;
     font-size: 16px;
     box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.29);
 }
 
-.editPhotoModal .gt-btn-darkblue {
+.editPhotoModal .btn-darkblue {
     padding: 10px 15px;
     font-size: 16px;
     box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.29);
@@ -1896,13 +1896,13 @@ a.gt-main-name:focus {
     background: #f3f3f3;
 }
 
-.gt-left-opt-msg .gt-btn-orange {
+.gt-left-opt-msg .btn-darkblue {
     padding: 10px 25px 10px 25px;
     font-size: 13px;
     font-weight: 600;
 }
 
-.inMessageFull .gt-btn-orange {
+.inMessageFull .btn-darkblue {
     padding: 10px 25px 10px 25px;
     font-size: 13px;
     font-weight: 600;
@@ -2071,7 +2071,7 @@ a.gt-main-name:focus {
     box-shadow: inset 0 8px 2px -6px #f0f0f0;
 }
 
-.inComposeMsg .gt-btn-orange {
+.inComposeMsg .btn-darkblue {
     font-size: 13px;
     border-radius: 5px;
     font-weight: 500;
@@ -2204,7 +2204,7 @@ li {
     margin-top: 3px;
 }
 
-.gt-left-exp .gt-btn-orange {
+.gt-left-exp .btn-darkblue {
     padding: 15px 25px 15px 25px;
     font-size: 14px;
     font-weight: 600;
@@ -2572,7 +2572,7 @@ li {
     padding-bottom: 80px;
 }
 
-.gt-bg-index-white {
+.bg-index-white {
     width: 100%;
     float: left;
     background: #FFFFFF;
@@ -2883,7 +2883,7 @@ a:hover .gt-btn-round {
     color: #565656;
 }
 
-#quick_search_form .gt-btn-darkblue {
+#quick_search_form .btn-darkblue {
     font-size: 13px;
     border-radius: 5px;
     font-weight: 500;
@@ -2896,7 +2896,7 @@ a:hover .gt-btn-round {
     color: #565656;
 }
 
-#baisc_search_form .gt-btn-darkblue {
+#baisc_search_form .btn-darkblue {
     font-size: 13px;
     border-radius: 5px;
     font-weight: 500;
@@ -2909,7 +2909,7 @@ a:hover .gt-btn-round {
     color: #565656;
 }
 
-#location_search_form .gt-btn-darkblue {
+#location_search_form .btn-darkblue {
     font-size: 13px;
     border-radius: 5px;
     font-weight: 500;
@@ -2922,7 +2922,7 @@ a:hover .gt-btn-round {
     color: #565656;
 }
 
-#ocp_search_form .gt-btn-darkblue {
+#ocp_search_form .btn-darkblue {
     font-size: 13px;
     border-radius: 5px;
     font-weight: 500;
@@ -3464,7 +3464,7 @@ a.gt-member-profile-circle:hover {
 /*-- /. Borders --*/
 /*----------------------------------extra bg colors--------------------------------------*/
 
-.gt-bg-white {
+.bg-white {
     background: rgba(255, 255, 255, 1.00) !important;
 }
 
@@ -3523,16 +3523,16 @@ a.gt-member-profile-circle:hover {
     color: #24A19C;
 }
 
-.gt-text-orange {
+.text-red {
     color: #e47203;
 }
 
-a.gt-text-orange {
+a.text-red {
     color: rgba(255, 255, 255, 1.00);
 }
 
-a.gt-text-orange:hover,
-a.gt-text-orange:focus {
+a.text-red:hover,
+a.text-red:focus {
     color: rgba(239, 239, 239, 1.00);
 }
 
@@ -3705,7 +3705,7 @@ a.gt-text-light-Grey:focus {
     margin-top: 15px;
 }
 
-.gt-margin-top-20 {
+.margin-top-20 {
     margin-top: 20px;
 }
 
@@ -4414,19 +4414,19 @@ select.inThemeFormControl {
     font-weight: normal;
 }
 
-.gt-btn-orange {
+.btn-darkblue {
     color: #fff;
     background-color: #0b0e21;
     border-color: #0b0e21;
     transition: all 0.3s ease-in-out;
 }
 
-.gt-btn-orange:hover,
-.gt-btn-orange:focus,
-.gt-btn-orange.focus,
-.gt-btn-orange:active,
-.gt-btn-orange.active,
-.open>.dropdown-toggle.gt-btn-orange {
+.btn-darkblue:hover,
+.btn-darkblue:focus,
+.btn-darkblue.focus,
+.btn-darkblue:active,
+.btn-darkblue.active,
+.open>.dropdown-toggle.btn-darkblue {
     color: #fff;
     background-color: #272e73;
     border-color: #272e73;
@@ -4444,19 +4444,19 @@ select.inThemeFormControl {
     font-weight: 600;
 }
 
-.gt-btn-darkblue {
+.btn-darkblue {
     color: #fff;
     background-color: #0b0e21;
     border-color: #0b0e21;
     transition: all 0.3s ease-in-out;
 }
 
-.gt-btn-darkblue:hover,
-.gt-btn-darkblue:focus,
-.gt-btn-darkblue.focus,
-.gt-btn-darkblue:active,
-.gt-btn-darkblue.active,
-.open>.dropdown-toggle.gt-btn-darkblue {
+.btn-darkblue:hover,
+.btn-darkblue:focus,
+.btn-darkblue.focus,
+.btn-darkblue:active,
+.btn-darkblue.active,
+.open>.dropdown-toggle.btn-darkblue {
     color: #fff;
     background-color: #272e73;
     border-color: #272e73;

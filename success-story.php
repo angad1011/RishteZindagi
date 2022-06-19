@@ -181,7 +181,7 @@
                 <!-- /. Header & Menu -->
 				<div class="container">
 					<h2 class="text-center inPageTitle fontMerriWeather">
-						<i class="fa fa-heart mr-10 gt-text-orange"></i><?php echo $lang['Happy Marriages']; ?>
+						<i class="fa fa-heart mr-10 text-red"></i><?php echo $lang['Happy Marriages']; ?>
 					</h2>
                 	<p class="inPageSubTitle text-center mb-30"><?php echo $lang['Check it out our success stories who found their life partner here']; ?>.</p>
     				<div class="row">
@@ -442,7 +442,7 @@
 												</div>
 												<div class="form-group text-center">
 													<div class="row">
-														<input type="submit" class="btn gt-btn-orange gt-btn-xl" value="<?php echo $lang['SUBMIT']; ?>" name="sub_success">
+														<input type="submit" class="btn btn-darkblue gt-btn-xl" value="<?php echo $lang['SUBMIT']; ?>" name="sub_success">
 													</div>
 												</div>
                                 			</div>

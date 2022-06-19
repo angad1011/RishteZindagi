@@ -179,7 +179,7 @@
 										<input type="text" class="gt-form-control" name="email" placeholder="<?php echo $lang['Enter Email id / Matri id']; ?>" data-validetta="required">
 									</div>
 									<div class="form-group  gt-margin-top-30">
-										<input type="submit" name="forgoten_sub" class="btn gt-btn-orange btn-block" value="<?php echo $lang['SUBMIT']; ?>">
+										<input type="submit" name="forgoten_sub" class="btn btn-darkblue btn-block" value="<?php echo $lang['SUBMIT']; ?>">
 									</div>
 									<input type="hidden" name="val_of_forgot" value="<?php if(isset($_POST['forgot']) && $_POST['forgot']!=''){ echo $_POST['forgot'];} ?>">
 								</form>

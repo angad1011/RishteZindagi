@@ -150,7 +150,7 @@
                                     
                                 </ul>
                                 <ul class="nav navbar-nav navbar-right">
-                                    <a href="login" class="btn gt-btn-darkblue">Login</a>
+                                    <a href="login" class="btn btn-darkblue">Login</a>
                                 </ul>
                             </div>
                         </div>
@@ -418,7 +418,7 @@
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col-xxl-16 text-center">
-                                                        <button type="submit" class="btn gt-btn-darkblue inIndexRegBtn" name="reg_sub"><?php echo $lang['Register Now']; ?></button>
+                                                        <button type="submit" class="btn btn-darkblue inIndexRegBtn" name="reg_sub"><?php echo $lang['Register Now']; ?></button>
                                                     </div>
                                                 </div>
                                             </form>
@@ -498,14 +498,14 @@
                                     </select>
                                 </div>
                                 <div class="col-xxl-3">
-                                    <input type="submit" value="Search Now" class="btn gt-btn-orange btn-block" name="quick_sub">
+                                    <input type="submit" value="Search Now" class="btn btn-darkblue btn-block" name="quick_sub">
                                 </div>
                             </form>
                         </div>
                         <div class="clearfix"></div>
                     </section> -->
                     <!-- Welcome Section -->
-                    <section class="gt-bg-white">
+                    <section class="bg-white">
                         <div class="container pb-50">
                             <h2 class="text-center inThemeOrange fontMerriWeather mt-50"><?php echo $configObj->getConfigWelcome(); ?></h2>
                             <p class="text-center inGrey500 indexContent">
@@ -515,14 +515,14 @@
                             </p>
 
                             <div class="gt-hearts">
-                                <div class="gt-hearts-group gt-bg-white">
-                                    <i class="fa fa-heart font-20 heart gt-text-orange"></i>
-                                    <i class="fa fa-heart font-38 heart gt-text-orange"></i>
-                                    <i class="fa fa-heart font-20 heart gt-text-orange"></i>
+                                <div class="gt-hearts-group bg-white">
+                                    <i class="fa fa-heart font-20 heart text-red"></i>
+                                    <i class="fa fa-heart font-38 heart text-red"></i>
+                                    <i class="fa fa-heart font-20 heart text-red"></i>
                                 </div>
                             </div>
 
-                            <div class="col-xxl-4 col-xl-4 col-lg-8 gt-margin-top-20">
+                            <div class="col-xxl-4 col-xl-4 col-lg-8 margin-top-20">
                                 <div class="row">
                                     <div class="col-xxl-16 text-center">
                                         <i class="fa fa-star index-color-1 gt-index-icon-font"></i>
@@ -547,7 +547,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-xxl-4 col-xl-4 col-lg-8 gt-margin-top-20">
+                            <div class="col-xxl-4 col-xl-4 col-lg-8 margin-top-20">
                                 <div class="row">
                                     <div class="col-xxl-16 text-center">
                                         <i class="fa fa-users index-color-2 gt-index-icon-font tex"></i>
@@ -572,7 +572,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-xxl-4 col-xl-4 col-lg-8 gt-margin-top-20">
+                            <div class="col-xxl-4 col-xl-4 col-lg-8 margin-top-20">
                                 <div class="row">
                                     <div class="col-xxl-16 text-center">
                                         <i class="fa fa-search index-color-3 gt-index-icon-font"></i>
@@ -597,7 +597,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-xxl-4 col-xl-4 col-lg-8 gt-margin-top-20">
+                            <div class="col-xxl-4 col-xl-4 col-lg-8 margin-top-20">
                                 <div class="row">
                                     <div class="col-xxl-16 text-center">
                                         <i class="fa fa-list-ol index-color-4 gt-index-icon-font"></i>
@@ -630,14 +630,14 @@
 						$sel_fet_bride = $DatabaseCo->dbLink->query("SELECT matri_id,birthdate,username,country_name,city_name,photo_view_status,photo1_approve,photo1,photo_protect,photo_pswd,gender FROM register_view WHERE gender='Female' AND fstatus='Featured' ORDER BY rand() limit 0,9");
 						if (mysqli_num_rows($sel_fet_bride) > 0) {
 					?>
-                	<section class="gt-bg-index-white">
+                	<section class="bg-index-white">
                        <div class="container">
                             <h2 class="text-center gt-text-Grey fontMerriWeather mb-0 mt-0"><?php echo $lang['Featured Brides']; ?></h2>
                         	<p class="text-center gt-text-Grey">
                             	<?php echo $lang['This is our featured brides section where you can check our elite profiles.']; ?>
                             </p>
                         	<div class="gt-hearts">
-                            	<div class="gt-hearts-group gt-bg-white">
+                            	<div class="gt-hearts-group bg-white">
                                     <i class="fa fa-heart font-20 heart gt-text-darkblue"></i>
                                 	<i class="fa fa-heart font-38 heart gt-text-darkblue"></i>
                                 	<i class="fa fa-heart font-20 heart gt-text-darkblue"></i>

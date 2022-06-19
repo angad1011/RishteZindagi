@@ -1041,7 +1041,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
             </div>
 			<?php } ?>
             <div class="form-group text-center">
-                <input type="submit" name="submit" id="submit" value="<?php echo $lang['Continue']; ?>" class="btn gt-btn-darkblue inRegBtn">
+                <input type="submit" name="submit" id="submit" value="<?php echo $lang['Continue']; ?>" class="btn btn-darkblue inRegBtn">
             </div>	
 		</form>
     </div>

@@ -251,7 +251,7 @@
 															</a>
 														</div>
 													</div>
-													<div class="row gt-margin-top-20">
+													<div class="row margin-top-20">
 														<div class="collapse col-xxl-11 col-xl-12 col-xs-16 col-sm-16 col-md-16 col-lg-12" id="photo-settings"> </div>
 													</div>
 													<div class="row">
@@ -275,7 +275,7 @@
 															</div>
 														<?php }?>
 													</div>
-													<div class="row gt-margin-top-20">
+													<div class="row margin-top-20">
 														<div class="collapse col-xxl-11 col-xl-12 col-xs-16 col-sm-16 col-md-16 col-lg-12" id="photo-settings-2">
 															<div class="col-xs-16 col-xxl-16 col-xl-16 col-md-16 col-sm-16 col-lg-16 setting-collapse-bucket">
 																<div class="row gt-margin-bottom-10">
@@ -284,7 +284,7 @@
 																			<input type="text" name="set_pass" placeholder="<?php echo $lang['Set Photo Password']; ?>" class="gt-form-control" data-validetta="required">
 																		</div>
 																		<div class="col-xxl-8 col-xl-8 col-lg-8 col-md-16 col-sm-16 col-xs-16 gt-margin-bottom-10">
-																			<input type="submit" name="set_photo_pass" value="<?php echo $lang['Submit']; ?>" class="btn gt-btn-darkblue">
+																			<input type="submit" name="set_photo_pass" value="<?php echo $lang['Submit']; ?>" class="btn btn-darkblue">
 																		</div>
 																	</form>
 																</div>
@@ -303,7 +303,7 @@
 													<p class="pb-10 gt-border-bottom-smoke-white inSearchSubTitle"> 
 														<?php echo $lang['You can see all blocked members list here and you also can block directly from here']; ?>. 
 													</p>
-													<div class="row gt-margin-top-20">
+													<div class="row margin-top-20">
 														<form action="" method="post" id="blocklist_form" name="blocklist_form">
 															<div class="col-xxl-10 col-xl-10 col-lg-12 col-md-16 col-sm-16 col-xs-16">
 																<label> <?php echo $lang['Enter User Id Or Email Id']; ?> </label>
@@ -350,7 +350,7 @@
 															</a>
 														</div>
 													</div>
-													<div class="row gt-margin-top-20">
+													<div class="row margin-top-20">
 														<div class="collapse col-xxl-11 col-xl-12 col-xs-16 col-sm-16 col-md-16 col-lg-12" id="contact-show"> </div>
 													</div>
 												</div>
@@ -386,7 +386,7 @@
 																<input type="password" class="gt-form-control" id="cnfm_pass" name="cnfm_pass" data-validetta="equalTo[new_pass]">
 															</div>
 															<div class="col-xs-16 col-sm-16 col-md-16 col-lg-16 col-xxl-10 col-xxl-offset-3 col-xl-10 col-xl-offset-3 gt-margin-bottom-15 text-center">
-																<input type="submit" name="submit" value="<?php echo $lang['']; ?>Save Changes" class="btn gt-btn-darkblue inBtnTheme-1"> 
+																<input type="submit" name="submit" value="<?php echo $lang['']; ?>Save Changes" class="btn btn-darkblue inBtnTheme-1"> 
 															</div>
 														</form>
 													</div>

@@ -18,7 +18,7 @@
         if($rows >0){ 
 ?>
 
-    <div class="row gt-margin-top-20">
+    <div class="row margin-top-20">
         <div class="col-xs-16 col-sm-16 col-md-16 col-lg-16 col-xxl-16 col-xl-16">
             <h3 class="inSearchTitle">
                 <i class="fa fa-user-times gt-margin-right-10"></i><?php echo $lang['List Of Blocked Members']; ?>

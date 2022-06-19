@@ -364,7 +364,7 @@ if (isset($_GET['mp-rem-id'])) {
                     <?php include "parts/header.php"; ?>
                     <?php include "parts/menu.php"; ?>
                     <!-- /. Header & Menu -->
-        			<div class="container gt-margin-top-20">
+        			<div class="container margin-top-20">
             			<div class="row">
 							<div class="col-xxl-12 col-xxl-offset-4 col-xl-12 col-xl-offset-4 text-center">
 								<h2 class="inPageTitle fontMerriWeather inThemeOrange"><?php echo $lang['Upload & Profile Picture Settings']; ?></h2>
@@ -375,7 +375,7 @@ if (isset($_GET['mp-rem-id'])) {
 								</article>
 							</div>
 							<div class="col-xxl-4 col-xl-4 gt-left-opt-msg">
-								<a class="btn gt-btn-darkblue btn-block hidden-xxl hidden-xl gt-margin-bottom-20" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
+								<a class="btn btn-darkblue btn-block hidden-xxl hidden-xl gt-margin-bottom-20" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
 									<?php echo $lang['']; ?>Options <i class="fa fa-angle-down"></i>
 								</a>
 								<div class="collapse mobile-collapse" id="collapseExample">
@@ -400,7 +400,7 @@ if (isset($_GET['mp-rem-id'])) {
 															<?php }else{ ?> 
 																<img src="img/female.jpg" class="img-responsive img-thumbnail gt-margin-bottom-15">
 														<?php }}?> 
-															<a href="#editPhoto1Modal" data-toggle="modal" class="btn gt-btn-darkblue btn-block gt-margin-bottom-10">
+															<a href="#editPhoto1Modal" data-toggle="modal" class="btn btn-darkblue btn-block gt-margin-bottom-10">
 																<?php echo $lang['Change Profile Picture']; ?>
 															</a>
 														<?php if($Row->photo1 != '' && file_exists('my_photos/'.$Row->photo1)){ ?> 
@@ -433,7 +433,7 @@ if (isset($_GET['mp-rem-id'])) {
 																<img src="img/female.jpg" class="img-responsive gt-margin-bottom-15">	
 														<?php }}?>										 
 													</div>  
-													<a href="#editPhoto2Modal" data-toggle="modal" class="btn gt-btn-darkblue btn-block gt-margin-bottom-10">
+													<a href="#editPhoto2Modal" data-toggle="modal" class="btn btn-darkblue btn-block gt-margin-bottom-10">
 														<?php echo $lang['Edit Photo']; ?> 2
 													</a>
 													<?php if($Row->photo2 != '' && file_exists('my_photos/'.$Row->photo1)){ ?>
@@ -458,7 +458,7 @@ if (isset($_GET['mp-rem-id'])) {
 																<img src="img/female.jpg" class="img-responsive gt-margin-bottom-15">	
 														<?php }}?>										 
 													</div>  
-													<a href="#editPhoto3Modal" data-toggle="modal" class="btn gt-btn-darkblue btn-block gt-margin-bottom-10">
+													<a href="#editPhoto3Modal" data-toggle="modal" class="btn btn-darkblue btn-block gt-margin-bottom-10">
 														<?php echo $lang['Edit Photo']; ?> 3
 													</a>
 													<?php if($Row->photo3 != '' && file_exists('my_photos/'.$Row->photo3)){ ?>
@@ -481,7 +481,7 @@ if (isset($_GET['mp-rem-id'])) {
 																<img src="img/female.jpg" class="img-responsive gt-margin-bottom-15">	
 														<?php }}?>										 
 													</div>  
-													<a href="#editPhoto4Modal" data-toggle="modal" class="btn gt-btn-darkblue btn-block gt-margin-bottom-10">
+													<a href="#editPhoto4Modal" data-toggle="modal" class="btn btn-darkblue btn-block gt-margin-bottom-10">
 														<?php echo $lang['Edit Photo']; ?> 4
 													</a>
 													<?php if($Row->photo4 != '' && file_exists('my_photos/'.$Row->photo4)){ ?>
@@ -504,7 +504,7 @@ if (isset($_GET['mp-rem-id'])) {
 																<img src="img/female.jpg" class="img-responsive gt-margin-bottom-15">	
 														<?php }}?>										 
 													</div>  
-													<a href="#editPhoto5Modal" data-toggle="modal" class="btn gt-btn-darkblue btn-block gt-margin-bottom-10">
+													<a href="#editPhoto5Modal" data-toggle="modal" class="btn btn-darkblue btn-block gt-margin-bottom-10">
 														  <?php echo $lang['Edit Photo']; ?> 5
 													</a>
 													<?php if($Row->photo5 != '' && file_exists('my_photos/'.$Row->photo5)){ ?>
@@ -515,7 +515,7 @@ if (isset($_GET['mp-rem-id'])) {
 												</div>
 											</div>
 						 				</div>
-										<div class="row gt-margin-top-20">
+										<div class="row margin-top-20">
 											<div class="col-xxl-4 col-xs-8 col-md-4">
 												<div class="gtImageUpload">
 													<div class="thumbnail">
@@ -529,7 +529,7 @@ if (isset($_GET['mp-rem-id'])) {
 																<img src="img/female.jpg" class="img-responsive gt-margin-bottom-15">	
 														<?php }}?>										 
 													</div>  
-													<a href="#editPhoto6Modal" data-toggle="modal" class="btn gt-btn-darkblue btn-block gt-margin-bottom-10">
+													<a href="#editPhoto6Modal" data-toggle="modal" class="btn btn-darkblue btn-block gt-margin-bottom-10">
 														<?php echo $lang['Edit Photo']; ?> 6
 													</a>
 													<?php if($Row->photo6 != '' && file_exists('my_photos/'.$Row->photo6)){ ?>

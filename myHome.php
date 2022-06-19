@@ -141,7 +141,7 @@ if(isset($get_own_data1->pactive_dt) != '' ){
                     				<div class="row">
                 						<div class="col-xxl-8 col-xl-8 col-lg-10">
 											<h4>
-												<?php echo $lang['Hello']; ?> <span class="gt-text-orange"><?php echo $get_own_data->username; ?></span>
+												<?php echo $lang['Hello']; ?> <span class="text-red"><?php echo $get_own_data->username; ?></span>
 												<small class="text-muted gt-margin-left-5">( <?php echo $mid; ?> )</small>
 											</h4>
 											<h5 class="mt-30">
@@ -189,7 +189,7 @@ if(isset($get_own_data1->pactive_dt) != '' ){
                                         				</a>
                                         				<div class="col-xxl-10 col-lg-10 col-xs-16">
                                             				<a href="member-profile?view_id=<?php echo $Row->matri_id; ?>" target="_blank" class="gt-result">
-                                                				<h5 class="text-center gt-text-orange mt-5 mb-5">
+                                                				<h5 class="text-center text-red mt-5 mb-5">
 																	<?php if($username_settings->username_setting == 'full_username'){?>
 																	<?php echo $Row->username; ?>&nbsp;&nbsp;(<?php echo $Row->matri_id; ?>)
 																	<?php }elseif($username_settings->username_setting == 'first_surname'){?>
@@ -220,7 +220,7 @@ if(isset($get_own_data1->pactive_dt) != '' ){
                                             					if (isset($_SESSION['user_id'])) {
                                                 					if (isset($sql_exp) && $sql_exp->receiver_response == 'Pending') {
                                              				?>
-																<button class="btn gt-btn-darkblue btn-block mt-5" onClick="sendreminder(<?php echo $sql_exp->ei_id ?>);" id="reminder<?php echo $sql_exp->ei_id; ?>" title="Send Reminder" >
+																<button class="btn btn-darkblue btn-block mt-5" onClick="sendreminder(<?php echo $sql_exp->ei_id ?>);" id="reminder<?php echo $sql_exp->ei_id; ?>" title="Send Reminder" >
                                                    					<i class="fa fa-bell gt-margin-right-5"></i><?php echo $lang['Send Reminder']; ?>
                                             					</button>
 															<?php }elseif(isset($sql_exp) && $sql_exp->receiver_response=='Accept'){ ?>
@@ -228,7 +228,7 @@ if(isset($get_own_data1->pactive_dt) != '' ){
 															<?php }elseif(isset($sql_exp) && $sql_exp->receiver_response=='Reject'){?>
 																<h5 class="interestRejected mt-5"><?php echo $lang['Interest Rejected']; ?></h5>
                                             				<?php } else { ?>	
-                                            					<button class="btn gt-btn-darkblue btn-block mt-5" onclick="ExpressInterest('<?php echo $Row->matri_id; ?>')" title="Send Interest" data-target="#myModal1" data-toggle="modal" data-backdrop="static" data-keyboard="false">
+                                            					<button class="btn btn-darkblue btn-block mt-5" onclick="ExpressInterest('<?php echo $Row->matri_id; ?>')" title="Send Interest" data-target="#myModal1" data-toggle="modal" data-backdrop="static" data-keyboard="false">
                                                    					<i class="fa fa-heart-o"></i> <?php echo $lang['Send Interest']; ?>
                                              					</button>
                                             				<?php } }?>
@@ -253,7 +253,7 @@ if(isset($get_own_data1->pactive_dt) != '' ){
 												</div>
 											</div>
 											<div class="col-xxl-4">
-												<button type="submit" class="btn gt-btn-orange">
+												<button type="submit" class="btn btn-darkblue">
 													<?php echo $lang['Search Now']; ?>
 												</button>
 											</div>
@@ -266,7 +266,7 @@ if(isset($get_own_data1->pactive_dt) != '' ){
            	 		<div class="container">
                 		<div class="row">
                     		<aside class="col-xxl-4 col-xl-4 col-xs-16">
-                       			<a class="btn gt-btn-orange btn-block gt-margin-bottom-15 visible-xs visible-sm visible-md btn-md" role="button" data-toggle="collapse" href="#collapseLeftPanel" aria-expanded="false" aria-controls="collapseLeftPanel">
+                       			<a class="btn btn-darkblue btn-block gt-margin-bottom-15 visible-xs visible-sm visible-md btn-md" role="button" data-toggle="collapse" href="#collapseLeftPanel" aria-expanded="false" aria-controls="collapseLeftPanel">
 									<?php echo $lang['']; ?>Options &nbsp;&nbsp;<i class="fa fa-angle-down"></i>
 					   			</a>
 					   			<div class="clearfix"></div>
@@ -469,7 +469,7 @@ if(isset($get_own_data1->pactive_dt) != '' ){
                                             		</div>
                                            		</div>
                                            		<div class="col-xs-16 text-center">
-                                           			<h5 class="text-center text-center gt-text-orange mt-5 mb-5">
+                                           			<h5 class="text-center text-center text-red mt-5 mb-5">
                                                 		<?php if($username_settings->username_setting == 'full_username'){ ?>
 															<?php echo $Row->username; ?>
 														<?php }elseif($username_settings->username_setting == 'first_surname'){?>

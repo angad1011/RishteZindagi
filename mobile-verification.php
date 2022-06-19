@@ -188,7 +188,7 @@ if (isset($_POST['sms'])) {
                             	<p class="font-12"><?php echo $lang['An SMS with verification PIN has been sent to']; ?> </p>
 								<h5 class="gtMobileNo"><?php echo $_SESSION['reg_code']; ?>-<?php echo $_SESSION['reg_mobile']; ?></h5>
 								<div class="col-xxl-16">
-									<a href="#myModal" data-toggle="modal" class="btn gt-btn-orange gt-margin-top-5"><?php echo $lang['Edit Mobile No']; ?></a>
+									<a href="#myModal" data-toggle="modal" class="btn btn-darkblue gt-margin-top-5"><?php echo $lang['Edit Mobile No']; ?></a>
 								</div>
 								<div class="clearfix"></div>
                             	<div class="form-group mt-30">
@@ -199,7 +199,7 @@ if (isset($_POST['sms'])) {
 											   <!-- <input type="text"  placeholder="Enter Your OTP code here">-->
 											</div>
 											<div class="col-md-16 col-xs-16 text-center">
-												<input type="submit" name="verify_submit" class="btn gt-btn-darkblue btnVerify mt-10" value="<?php echo $lang['Verify']; ?>">
+												<input type="submit" name="verify_submit" class="btn btn-darkblue btnVerify mt-10" value="<?php echo $lang['Verify']; ?>">
 											</div>
 											<div class="col-xs-16 mt-10">
 												<?php 
@@ -216,7 +216,7 @@ if (isset($_POST['sms'])) {
                                     	<div class="row">
                                         	<div class="col-xs-16 font-12"><?php echo $lang['Not received verification code yet?']; ?> <span id="countVerify"></span><b>s</b></div>
 											<div class="col-xs-16">
-												<input type="submit" name="sms" class="btn gt-btn-orange mt-10" value="<?php echo $lang['Send OTP Again']; ?>" id="btnCounterVerify" disabled>
+												<input type="submit" name="sms" class="btn btn-darkblue mt-10" value="<?php echo $lang['Send OTP Again']; ?>" id="btnCounterVerify" disabled>
 											</div>
                                     	</div>
                                     	<div class="clearfix"></div>
@@ -249,7 +249,7 @@ if (isset($_POST['sms'])) {
 									</div>
 									<div class="col-xxl-16 text-center">
 										<div class="form-group">
-											<input type="submit" class="btn gt-btn-orange gt-margin-top-5" name="Submit" class="gt-form-control" value="<?php echo $lang['Submit']; ?>">
+											<input type="submit" class="btn btn-darkblue gt-margin-top-5" name="Submit" class="gt-form-control" value="<?php echo $lang['Submit']; ?>">
 										</div>
 									</div>
 								</div>

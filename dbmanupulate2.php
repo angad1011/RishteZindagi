@@ -583,7 +583,7 @@
                     </span>
                 </p>
                 <?php if (isset($_SESSION['user_id'])) { ?>
-                    <a data-toggle="modal" data-target="#myModal" onClick="save_search();" class="btn gt-btn-darkblue gt-cursor">
+                    <a data-toggle="modal" data-target="#myModal" onClick="save_search();" class="btn btn-darkblue gt-cursor">
                         <?php echo $lang['Add To Saved Search']; ?>
                     </a>
                 <?php } ?>
@@ -592,10 +592,10 @@
     </div>  
     <div class="col-xs-16 text-right">
         <div class="buttons">
-            <button class="grid btn gt-btn-darkblue">
+            <button class="grid btn btn-darkblue">
                 <i class="fa fa-list gt-margin-right-5"></i><?php echo $lang['Grid View']; ?>
             </button>
-            <button class="list btn gt-btn-darkblue">
+            <button class="list btn btn-darkblue">
                 <i class="fa fa-th gt-margin-right-5"></i><?php echo $lang['List View']; ?>
             </button>
         </div>
@@ -671,7 +671,7 @@ if ($rows > 0) {
                     </div>
                     <div class="modal-body" id="div_success"></div>
                     <div class="modal-footer">
-                        <input type="button" class="btn gt-btn-orange" id="sub_saved_search" value="<?php echo $lang['Submit']; ?>">
+                        <input type="button" class="btn btn-darkblue" id="sub_saved_search" value="<?php echo $lang['Submit']; ?>">
                         <input type="button" class="btn btn-default" data-dismiss="modal" value="<?php echo $lang['Close']; ?>">
                     </div>
                 </form>

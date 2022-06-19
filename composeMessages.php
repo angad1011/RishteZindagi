@@ -199,7 +199,7 @@ mail($to, $subject, $message, $headers);
 			</div>
 			<div class="form-group">
 			  <div class="col-sm-offset-5 col-sm-6 text-center">
-				<button class="btn gt-btn-orange btn-block gt-cursor" formaction="membershipplans"><?php echo $lang['Upgrade Now']; ?>
+				<button class="btn btn-darkblue btn-block gt-cursor" formaction="membershipplans"><?php echo $lang['Upgrade Now']; ?>
 				</button>
 			  </div>
 			</div>
@@ -383,7 +383,7 @@ echo "<script>window.location='trashMessages';</script>";
         </div>
         <div class="form-group">
           <div class="col-sm-offset-4 col-sm-6 " style="text-align:center;">
-            <button class="btn gt-btn-orange btn-block gt-cursor" formaction="membershipplans"><?php echo $lang['Upgrade Now']; ?>
+            <button class="btn btn-darkblue btn-block gt-cursor" formaction="membershipplans"><?php echo $lang['Upgrade Now']; ?>
             </button>
           </div>
         </div>
@@ -452,7 +452,7 @@ echo "<script>window.location='trashMessages';</script>";
                     <?php include "parts/header.php"; ?>
                     <?php include "parts/menu.php"; ?>
                     <!-- /. Header & Menu -->
-      				<div class="container gt-margin-top-20">
+      				<div class="container margin-top-20">
         				<div class="row">
 							<div class="col-xxl-13 col-xxl-offset-3 col-xl-13 col-xl-offset-3 text-center">
 								<h2 class="inPageTitle fontMerriWeather inThemeOrange">
@@ -583,7 +583,7 @@ echo "<script>window.location='trashMessages';</script>";
             				</form>
 							<div class="col-xxl-16 col-xl-16 gt-msg-top-strip text-center">
 								<div class="row">
-									<a class="btn gt-btn-orange gt-cursor" id="send_msg">
+									<a class="btn btn-darkblue gt-cursor" id="send_msg">
 										<?php echo $lang['Send Message']; ?>
 								  	</a>
 									<!--<div class="col-xxl-2 pull-right">
@@ -593,7 +593,7 @@ echo "<script>window.location='trashMessages';</script>";
 								  		</a>
 									</div>-->
 									<!--<div class="col-xxl-2 gt-margin-bottom-5 pull-right">
-								  		<a class="btn gt-btn-orange btn-block gt-cursor" title="Send Message" id="send_msg">
+								  		<a class="btn btn-darkblue btn-block gt-cursor" title="Send Message" id="send_msg">
 											<i class="fa fa-reply"></i>
 											<span class="gt-margin-left-10">Send</span>
 								  		</a>

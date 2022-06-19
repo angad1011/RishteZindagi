@@ -53,7 +53,7 @@ include_once 'auth.php';
                     <?php include "parts/header.php"; ?>
                     <?php include "parts/menu.php"; ?>
                     <!-- /. Header & Menu -->
-                    <div class="container gt-margin-top-20">
+                    <div class="container margin-top-20">
                         <div class="row">
                             <?php include "parts/express-interest-side-pan.php" ?>
                             <div class="col-xxl-12 col-xl-12 col-xs-16 col-sm-16 col-md-16 gt-exp-main">

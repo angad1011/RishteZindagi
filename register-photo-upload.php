@@ -248,7 +248,7 @@ $mail->send();
 										?>
 								   		<div class="row">
 											<div class="col-xxl-3 col-xxl-offset-13">
-												<a class="btn gt-btn-darkblue btn-block" href="aadhaar_upload"> <?php echo $lang['Skip']; ?> <i class="fa fa-caret-right"></i></a>
+												<a class="btn btn-darkblue btn-block" href="aadhaar_upload"> <?php echo $lang['Skip']; ?> <i class="fa fa-caret-right"></i></a>
 											</div>
 										</div>
 										<?php } ?>
@@ -276,7 +276,7 @@ $mail->send();
 															<?php echo $lang['Select Image']; ?>
 														</label>
 														<p class="mt-10"><?php echo $lang['After select image click on']; ?> <b><?php echo $lang['Upload & Continue']; ?></b> <?php echo $lang['button']; ?>.</p>
-														<input type="submit" name="submit" value="<?php echo $lang['Upload & Continue']; ?>" class="btn gt-btn-darkblue inIndexRegBtn btn-block inPhotoUploadBtn mt-20">
+														<input type="submit" name="submit" value="<?php echo $lang['Upload & Continue']; ?>" class="btn btn-darkblue inIndexRegBtn btn-block inPhotoUploadBtn mt-20">
 													</div>
 												</div>
 											</div>

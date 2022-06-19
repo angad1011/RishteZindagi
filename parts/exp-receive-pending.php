@@ -38,7 +38,7 @@ $sql="SELECT * FROM expressinterest,register_view WHERE register_view.matri_id=e
     	<input type="checkbox" id="exp-rec-all-1" onchange="checkAllrecpending(this);">
   	</label>
   	<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-xs-7 hidden-xs hidden-sm hidden-md">
-   		<a class="btn gt-btn-darkblue gt-cursor btn-block" id="accept_res_all">
+   		<a class="btn btn-darkblue gt-cursor btn-block" id="accept_res_all">
       		<i class="fa fa-check gt-margin-right-10"></i><?php echo $lang['Accept']; ?>
     	</a>
   	</div>

@@ -148,7 +148,7 @@ $amsam12=explode(",",$amsam12_val);
                     <?php include "parts/header.php"; ?>
                     <?php include "parts/menu.php"; ?>
                     <!-- /. Header & Menu -->
-					<div class="container gt-margin-top-20">
+					<div class="container margin-top-20">
 						<div class="row">
 							<div class="col-xxl-12 col-xxl-offset-2 col-xl-12 col-xl-offset-2 text-center gt-margin-bottom-20">
 								<h3 class="inPageTitle fontMerriWeather inThemeOrange">
@@ -340,7 +340,7 @@ $amsam12=explode(",",$amsam12_val);
 															</div>
 														</div>
 													</div>
-													<div class="col-xs-16 text-center gt-margin-top-20 gt-margin-bottom-30">
+													<div class="col-xs-16 text-center margin-top-20 gt-margin-bottom-30">
 														<div class="row">
 															<div class="col-xs-4 gt-margin-bottom-15">
 																<select class="gt-form-control chosen-select inThemeFormControl" name="rasi1[]" multiple>
@@ -733,7 +733,7 @@ $amsam12=explode(",",$amsam12_val);
 														</div>
 													</div>
 													<div class="col-xs-16 gt-margin-top-15 text-center">
-														<input type="submit" class="btn gt-btn-orange inBtnTheme-1" value="Update" name="hsUpdate"> 
+														<input type="submit" class="btn btn-darkblue inBtnTheme-1" value="Update" name="hsUpdate"> 
 													</div>
 												</form>
 											</div>

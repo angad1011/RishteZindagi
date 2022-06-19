@@ -61,7 +61,7 @@ if($_SESSION['user_id']!=''){
           </h5>
         </div>
         <div class="col-sm-16 text-center gt-margin-bottom-20">
-        	<a href="blocklisted-members" class="btn gt-btn-orange">
+        	<a href="blocklisted-members" class="btn btn-darkblue">
         		<?php echo $lang['Unblock Now']; ?>
         	</a>
         </div>
@@ -501,7 +501,7 @@ $ins=$DatabaseCo->dbLink->query("insert into contact_checker (my_id,viewed_id,da
       </div>
       <div class="form-group">
         <div class="col-sm-offset-4 col-sm-10">
-          <button class="btn gt-btn-orange" formaction="membershipplans.php"><?php echo $lang['Upgrade Now']; ?>
+          <button class="btn btn-darkblue" formaction="membershipplans.php"><?php echo $lang['Upgrade Now']; ?>
           </button>
         </div>
       </div>
@@ -526,7 +526,7 @@ $ins=$DatabaseCo->dbLink->query("insert into contact_checker (my_id,viewed_id,da
       </div>                                                   
       <div class="row">
         <div class="col-sm-offset-4 col-sm-10">                
-          <button class="btn gt-btn-orange" formaction="login.php"><?php echo $lang['Login Now']; ?>
+          <button class="btn btn-darkblue" formaction="login.php"><?php echo $lang['Login Now']; ?>
           </button>
         </div>
       </div>

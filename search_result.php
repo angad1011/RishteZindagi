@@ -395,7 +395,7 @@ if ($_SESSION['gender123'] == 'Male') {
                         <div class="col-xxl-12 col-xl-12 col-xs-16 gt-search-result" id="result">
                             <h3 class="gt-margin-top-10"><?php echo $lang['Your search results']; ?></h3>
                             <div id="loaderID" style="position:fixed;left:50%;top:50%;z-index:-1;opacity:0">
-                                <div class="col-lg-16 col-md-16 col-sm-16 btn gt-btn-orange">
+                                <div class="col-lg-16 col-md-16 col-sm-16 btn btn-darkblue">
                                     <font class="gt-margin-left-5">Loding ...&nbsp;&nbsp;</font>
                                 </div>
                             </div>	

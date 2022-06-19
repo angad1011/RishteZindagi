@@ -179,11 +179,11 @@
                                 					<div class="row">
                                     					<div class="col-xxl-5 col-xl-5 col-lg-4">
                                             				<h4><?php echo $lang['Plan Name']; ?></h4>
-                                            				<h5 class="gt-text-orange" id="dis_plan_name">Bronze</h5>
+                                            				<h5 class="text-red" id="dis_plan_name">Bronze</h5>
                                             			</div>
                                         				<div class="col-xxl-5 col-xl-5 col-lg-4">
                                             				<h4><?php echo $lang['Duration']; ?></h4>
-                                            				<h5 class="gt-text-orange" id="dis_plan_duaration">30 days</h5>
+                                            				<h5 class="text-red" id="dis_plan_duaration">30 days</h5>
                                         				</div>
                                         				<div class="col-xxl-6 col-xl-6 col-lg-8">
                                             				<h4 class="gt-margin-top-30">
@@ -193,7 +193,7 @@
                                         				</div>
                                     				</div>
                                     				<div class="row text-center">
-                                       					<a href="" id="checkout" class="btn gt-btn-darkblue gt-btn-md mt-15">
+                                       					<a href="" id="checkout" class="btn btn-darkblue gt-btn-md mt-15">
                                             				<i class="fas fa-shopping-cart gt-margin-right-10 font-12"></i><?php echo $lang['Checkout']; ?>
                                         				</a>
                                         			</div>

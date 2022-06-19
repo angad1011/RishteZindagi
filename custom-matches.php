@@ -134,10 +134,10 @@
                     <?php include "parts/header.php"; ?>
                     <?php include "parts/menu.php"; ?>
                     <!-- /. Header & Menu -->
-      				<div class="container gt-margin-top-20">
+      				<div class="container margin-top-20">
         				<div class="row">
           					<aside class="col-xxl-4 col-xl-4 col-xs-16">
-            					<a class="btn gt-btn-darkblue btn-block hidden-xxl hidden-xl gt-margin-bottom-20 gt-margin-top-15" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
+            					<a class="btn btn-darkblue btn-block hidden-xxl hidden-xl gt-margin-bottom-20 gt-margin-top-15" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
               						<?php echo $lang['Options']; ?> 
               						<i class="fa fa-angel-down"></i>
             					</a>
@@ -152,7 +152,7 @@
               						<p class="inPageSubTitle"><?php echo $lang['In custom match you can set criteria to get auto results']; ?>.</p>
             					</article>
 								<div class="col-xl-16 text-center mb-20">
-									<a class="btn gt-btn-darkblue" data-toggle="collapse" href="#collapseCustomMatch" role="button" aria-expanded="false" aria-controls="collapseCustomMatch">
+									<a class="btn btn-darkblue" data-toggle="collapse" href="#collapseCustomMatch" role="button" aria-expanded="false" aria-controls="collapseCustomMatch">
     									<?php echo $lang['Set Custom Match']; ?>
   									</a>
 									 
@@ -422,7 +422,7 @@
 											</div>  
 											<div class="row gt-margin-bottom-20 mt-20">
 												<div class="col-xs-16 text-center">
-													<input type="submit" class="btn gt-btn-orange inBtnTheme-2" value="<?php echo $lang['Save & Search']; ?>" name="sub_matches">
+													<input type="submit" class="btn btn-darkblue inBtnTheme-2" value="<?php echo $lang['Save & Search']; ?>" name="sub_matches">
 											 	</div>
 											</div>
 										</form>
@@ -437,7 +437,7 @@
 								  	</div>
 								</div>             
 								<div id="loaderID" style="position:fixed;  left:50%; top:50%; z-index:-1; opacity:0">
-  									<div class="col-lg-16 col-md-16 col-sm-16 btn gt-btn-orange">
+  									<div class="col-lg-16 col-md-16 col-sm-16 btn btn-darkblue">
     									<font class="gt-margin-left-5">Loding ...&nbsp;&nbsp;</font>
   									</div>
 								</div>	

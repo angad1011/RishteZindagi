@@ -71,7 +71,7 @@ include('./pagination.php');
         	<input type="checkbox" id="exp-rec-all-1" onchange="checkAllrecreject(this);">
         </label>
         <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-xs-7  hidden-xs hidden-sm hidden-md">
-        	<a class="btn gt-btn-darkblue gt-cursor" id="accept_res_all"><i class="fa fa-check gt-margin-right-10"></i><?php echo $lang['Accept']; ?></a>
+        	<a class="btn btn-darkblue gt-cursor" id="accept_res_all"><i class="fa fa-check gt-margin-right-10"></i><?php echo $lang['Accept']; ?></a>
         </div>
         <div class="col-xxl-3 col-xl-3 col-md-5 col-xs-6  hidden-xs hidden-sm hidden-md">
        		<a class="btn btn-danger gt-cursor" id="delete_exp_receive_reject"><i class="fa fa-trash gt-margin-right-10"></i><?php echo $lang['Delete']; ?></a>

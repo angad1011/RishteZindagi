@@ -178,7 +178,7 @@
 															
 														</div>
 														<div class="form-group text-center">
-															<button type="submit" name="sub_contact" id="contact-btn" class="btn gt-btn-darkblue inIndexRegBtn">
+															<button type="submit" name="sub_contact" id="contact-btn" class="btn btn-darkblue inIndexRegBtn">
 																<?php echo $lang['Submit']; ?>
 															</button>
 														</div>

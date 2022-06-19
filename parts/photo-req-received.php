@@ -15,7 +15,7 @@
         </div>
         <div class="row">
             <div class="col-xxl-16 col-xl-16 col-md-16 col-lg-16 col-sm-16">
-                <h5 class="gt-text-orange">
+                <h5 class="text-red">
                     <i class="fas fa-inbox gt-margin-right-10"></i> <?php echo $lang['Photo Request Received']; ?>
                 </h5>
             </div>
@@ -44,7 +44,7 @@
                 </a>
             </div>
             <div class="col-xxl-2 col-xl-3 col-xs-8 col-sm-8 col-md-5 col-lg-3 pull-right gt-margin-top-10">
-                <a class="btn gt-btn-darkblue gt-cursor" data-toggle="modal" data-target="#myModal2" onclick="getPhotoReq('<?php echo $Row->ph_reqid; ?>')">
+                <a class="btn btn-darkblue gt-cursor" data-toggle="modal" data-target="#myModal2" onclick="getPhotoReq('<?php echo $Row->ph_reqid; ?>')">
                     <i class="fas fa-check gt-margin-right-10"></i><?php echo $lang['Accept']; ?>
                 </a>
             </div>

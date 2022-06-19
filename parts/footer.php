@@ -60,7 +60,7 @@
 				<?php } ?>
                 <?php } ?>
 				<?php if($row_menu->footer_membership == 'APPROVED'){ ?>
- 				<li><a href="membershipplans"><i class="fa fa-star gt-text-orange"></i> <?php echo $lang['Upgrade Membership']; ?></a></li>
+ 				<li><a href="membershipplans"><i class="fa fa-star text-red"></i> <?php echo $lang['Upgrade Membership']; ?></a></li>
 				<?php } ?>
 			</ul>
 		</div>
@@ -157,7 +157,7 @@
                         <input type="text" name="userId" class="gt-form-control" placeholder="<?php echo $lang['Enter Email id / Mobile No / Matri Id']; ?>">
                     </div>
                     <div class="form-group text-center">
-                        <input type="submit" value="<?php echo $lang['GET OTP']; ?>" class="btn gt-btn-darkblue">
+                        <input type="submit" value="<?php echo $lang['GET OTP']; ?>" class="btn btn-darkblue">
                     </div>
                 </form>
             </div>

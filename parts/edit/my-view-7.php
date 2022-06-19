@@ -127,7 +127,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
 	<span class="pull-left">
     	<i class="fa fa-users"></i><?php echo $lang['Habits And Hobbies']; ?>
   	</span>
-  	<a  class="pull-right btn gt-btn-orange" onClick="return edit7();">
+  	<a  class="pull-right btn btn-darkblue" onClick="return edit7();">
     	<i class="fas fa-pencil-alt fa-fw"></i>
     	<font class="gt-margin-left-5"><?php echo $lang['EDIT']; ?></font>
   	</a>

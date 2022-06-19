@@ -111,7 +111,7 @@
                 				<article><p class="inPageSubTitle"><?php echo $lang['You can check all of your blocklisted members list here']; ?>.</p></article>
                 			</aside>
         					<div class="col-xxl-4 col-xl-4 gt-left-opt-msg">
-            					<a class="btn gt-btn-darkblue btn-block hidden-xxl hidden-xl gt-margin-bottom-20" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
+            					<a class="btn btn-darkblue btn-block hidden-xxl hidden-xl gt-margin-bottom-20" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
  									<?php echo $lang['Options']; ?>  <i class="fa fa-angle-down"></i>
 								</a>
 								<div class="collapse mobile-collapse" id="collapseExample">
@@ -120,7 +120,7 @@
            					</div>
 							<div class="col-xxl-12 col-xl-12 col-xs-16">
 								<div id="loaderID" style="position:fixed;left:50%; top:50%; z-index:-1; opacity:0">
-									<div class="col-lg-16 col-md-16 col-sm-16 btn gt-btn-orange"><font class="gt-margin-left-5">Loding ...&nbsp;&nbsp;</font></div>
+									<div class="col-lg-16 col-md-16 col-sm-16 btn btn-darkblue"><font class="gt-margin-left-5">Loding ...&nbsp;&nbsp;</font></div>
 								</div>	
 								<div id="pagination"></div>
 								<div class="clearfix"></div>

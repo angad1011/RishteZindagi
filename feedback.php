@@ -166,7 +166,7 @@
             	<!-- HEADER END-->
     			<div class="container">
                 	
-    				<div class="row gt-margin-top-20">
+    				<div class="row margin-top-20">
         				
                 		<div class="col-xxl-8 col-xxl-offset-4  col-xl-8 col-xl-offset-4">
                 			<div class="row">
@@ -201,7 +201,7 @@
                                                 		<textarea required  class="gt-form-control" rows="5" id="description" name="description" placeholder="<?php echo $lang['Enter Your Query Here']; ?>"></textarea>
                                             		</div>
                                             		<div class="form-group text-center">
-                                            			<button type="submit" name="sub_contact" id="contact-btn" class="btn gt-btn-darkblue btn-lg">
+                                            			<button type="submit" name="sub_contact" id="contact-btn" class="btn btn-darkblue btn-lg">
                                                 			<?php echo $lang['Submit']; ?>
                                                 		</button>
                                             		</div>

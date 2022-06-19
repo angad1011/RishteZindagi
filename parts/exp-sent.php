@@ -26,7 +26,7 @@
                           	</div>
                             <div class="row">
                             	<div class="col-xxl-16 col-xl-16 col-md-16 col-lg-16 col-sm-16">
-                               		<h5 class="gt-text-orange">
+                               		<h5 class="text-red">
                                     	<i class="fa fa-paper-plane gt-margin-right-10"></i> <?php echo $lang['Express Interest Sent']; ?>
                                     </h5>
                                	</div>
@@ -53,7 +53,7 @@
                                	</div>
                                 <?php if($Row->receiver_response=='Pending'){ ?>
                                 	<div class="col-xxl-3 col-xl-4 col-xs-9 col-sm-9 col-md-6 col-lg-4 pull-right gt-margin-top-10">
-                                    	<a class="btn gt-btn-darkblue gt-cursor" onClick="sendreminder(<?php echo $Row->ei_id?>);" id="reminder<?php echo $Row->ei_id;?>">
+                                    	<a class="btn btn-darkblue gt-cursor" onClick="sendreminder(<?php echo $Row->ei_id?>);" id="reminder<?php echo $Row->ei_id;?>">
                                         	<i class="fa fa-bell gt-margin-right-10"></i><?php echo $lang['Reminder']; ?>
                                        	</a>
                                    	</div>
@@ -65,7 +65,7 @@
                                    	</div>
                                	<?php }elseif($Row->receiver_response=='Reject'){ ?>
                                 	<div class="col-xxl-3 col-xl-4 col-xs-9 col-sm-9 col-md-6 col-lg-4 pull-right gt-margin-top-10">
-                                    	<a class="gt-text-orange" >
+                                    	<a class="text-red" >
                                         	<i class="fa fa-ban gt-margin-right-10"></i><?php echo $lang['Rejected']; ?>
                                        	</a>
                                   	</div>

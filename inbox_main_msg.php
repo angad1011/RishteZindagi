@@ -124,7 +124,7 @@ window.location='".$backurl."';</script>";
                     <?php include "parts/header.php"; ?>
                     <?php include "parts/menu.php"; ?>
                     <!-- /. Header & Menu -->		
-      				<div class="container gt-margin-top-20">
+      				<div class="container margin-top-20">
         				<div class="row">
           					<div class="col-xxl-13 col-xxl-offset-3 col-xl-13 col-xl-offset-3 text-center">
             					<h2 class="inPageTitle fontMerriWeather inThemeOrange mb-30">
@@ -246,7 +246,7 @@ window.location='".$backurl."';</script>";
 											</a>
 										</div>
 										<div class="col-xxl-3 gt-margin-bottom-5 pull-right">
-											<a href="composeMessages?msg_id=<?php echo $_GET['msg_id'];echo $del_var;?>" class="btn gt-btn-orange btn-block">
+											<a href="composeMessages?msg_id=<?php echo $_GET['msg_id'];echo $del_var;?>" class="btn btn-darkblue btn-block">
 												<i class="fa fa-reply"></i>
 												<span class="gt-margin-left-5"><?php echo $lang['Reply']; ?></span>
 											</a>

@@ -134,7 +134,7 @@ $m_tongue = isset($getdata->m_tongue) ? $getdata->m_tongue : "";
 ?>
 <div class="gt-panel-head">
     <span class="pull-left"><i class="fa fa-file"></i><?php echo $lang['Basic Details']; ?></span>
-    <a class="pull-right btn gt-btn-orange" onClick="return edit1();">
+    <a class="pull-right btn btn-darkblue" onClick="return edit1();">
         <i class="fas fa-pencil-alt fa-fw"></i><font class="gt-margin-left-5"><?php echo $lang['EDIT']; ?></font>
     </a>
 </div>

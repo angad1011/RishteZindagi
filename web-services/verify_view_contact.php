@@ -40,10 +40,10 @@ if($total_cnt-$used_cnt>0)
           <h4 class="text-center gt-margin-bottom-20"><?php echo $lang['You want to see contact Details?']; ?></h4>
           <div class="row">
             <div class="col-xs-8">                
-              <a class="btn  gt-btn-darkblue btn-block" onClick="getContactDetail('<?php echo $from_id; ?>')"><?php echo $lang['Yes']; ?></a>
+              <a class="btn  btn-darkblue btn-block" onClick="getContactDetail('<?php echo $from_id; ?>')"><?php echo $lang['Yes']; ?></a>
             </div>
             <div class="col-xs-8">                
-              <a class="btn gt-btn-orange  btn-block" data-dismiss="modal" aria-hidden="true"><?php echo $lang['No']; ?></a>
+              <a class="btn btn-darkblue  btn-block" data-dismiss="modal" aria-hidden="true"><?php echo $lang['No']; ?></a>
             </div>
           </div>
     </form>
@@ -67,7 +67,7 @@ if($total_cnt-$used_cnt>0)
       </div>
       <div class="form-group">
         <div class="col-sm-offset-4 col-sm-10">
-          <button class="btn gt-btn-orange" formaction="membershipplans.php"><?php echo $lang['Upgrade Now']; ?>
+          <button class="btn btn-darkblue" formaction="membershipplans.php"><?php echo $lang['Upgrade Now']; ?>
           </button>
         </div>
       </div>
@@ -93,7 +93,7 @@ if($total_cnt-$used_cnt>0)
       </div>                                                   
       <div class="row">
         <div class="col-sm-offset-4 col-sm-10">                
-          <button class="btn gt-btn-orange" formaction="login.php"><?php echo $lang['Login Now']; ?>
+          <button class="btn btn-darkblue" formaction="login.php"><?php echo $lang['Login Now']; ?>
           </button>
         </div>
       </div>

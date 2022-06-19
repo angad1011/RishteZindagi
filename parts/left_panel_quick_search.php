@@ -234,7 +234,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                            	<input type="submit" class="btn gt-btn-orange flat gt-btn-xl btn-block ripplelink" value="<?php echo $lang['Search']; ?>">
+                            	<input type="submit" class="btn btn-darkblue flat gt-btn-xl btn-block ripplelink" value="<?php echo $lang['Search']; ?>">
                             </div>
                          </form>   
                         </div>

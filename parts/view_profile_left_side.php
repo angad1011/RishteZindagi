@@ -1,4 +1,4 @@
-				<a class="btn gt-btn-darkblue btn-block gt-margin-bottom-20 hidden-xxl hidden-xl" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
+				<a class="btn btn-darkblue btn-block gt-margin-bottom-20 hidden-xxl hidden-xl" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
  					<?php echo $lang['Options']; ?> <i class="fa fa-angel-down"></i>
 				</a>
                 <div class="collapse mobile-collapse" id="collapseExample">

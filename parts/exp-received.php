@@ -26,7 +26,7 @@
                                                   	</div>
                                                    	<div class="row">
                                                    		<div class="col-xxl-16 col-xl-16 col-md-16 col-lg-16 col-sm-16">
-                                                        	<h5 class="gt-text-orange">
+                                                        	<h5 class="text-red">
                                                             	<i class="fa fa-inbox gt-margin-right-10"></i> <?php echo $lang['Express Interest Received']; ?>
                                                            	</h5>
                                                        	</div>
@@ -48,7 +48,7 @@
                                                          </div>
                                                          <?php if($Row->receiver_response=='Pending'){?>
                                                          <div class="col-xxl-3 col-xl-3 col-xs-8 col-sm-8 col-md-5 col-lg-3 pull-right gt-margin-top-10" id="accept<?php echo $Row->ei_id;?>">
-                                                             <a class="btn gt-btn-darkblue gt-cursor btn-block" onClick="acceptint(<?php echo $Row->ei_id;?>);">
+                                                             <a class="btn btn-darkblue gt-cursor btn-block" onClick="acceptint(<?php echo $Row->ei_id;?>);">
                                                                 <i class="fa fa-check gt-margin-right-10"></i><?php echo $lang['Accept']; ?>
                                                              </a>
                                                          </div>
@@ -73,7 +73,7 @@
 									
 															?> 
                                                         <div class="col-xxl-3 col-xl-3 col-xs-8 col-sm-8 col-md-5 col-lg-3 pull-right gt-margin-top-10" id="accept<?php echo $Row->ei_id;?>">
-                                                             <a class="btn gt-btn-darkblue gt-cursor btn-block" onClick="acceptint(<?php echo $Row->ei_id;?>);">
+                                                             <a class="btn btn-darkblue gt-cursor btn-block" onClick="acceptint(<?php echo $Row->ei_id;?>);">
                                                                 <i class="fa fa-check gt-margin-right-10"></i><?php echo $lang['Accept']; ?>
                                                              </a>
                                                          </div>

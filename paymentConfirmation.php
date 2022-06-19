@@ -93,38 +93,38 @@
                     <?php include "parts/menu.php"; ?>
                     <!-- /. Header & Menu -->
 					<?php if($status == 'success'){?>
-					<div class="container gt-margin-top-20">
+					<div class="container margin-top-20">
 						<div class="alert alert-success clearfix" role="alert">
 							<h2 class="text-center inPageTitle fontMerriWeather inThemeGreen"><?php echo $lang['Congratulations']; ?> !</h2>
 							<h5 class="text-center inPageSubTitle">
 								<?php echo $lang['You are our paid member now.You can access our membership benifits now']; ?>.
 							</h5>
 							<div class="col-xxl-16 col-xl-16 text-center gt-margin-top-10 gt-margin-bottom-20">
-								<a href="myHome" class="btn gt-btn-darkblue inBtnTheme-2">
+								<a href="myHome" class="btn btn-darkblue inBtnTheme-2">
 									<?php echo $lang['Go To Home']; ?>
 								</a>
 							</div>    
 						</div>
 						<div class="col-xxl-12 col-xxl-offset-2 col-xl-12 col-xl-offset-2 col-xs-16 well well-sm flat">
 							<div class="col-xxl-8 col-xl-8">
-								<h3 class="gt-text-orange"><?php echo $lang['Your Selected Plan']; ?></h3>
+								<h3 class="text-red"><?php echo $lang['Your Selected Plan']; ?></h3>
 								<h4><?php echo $getnew_data->p_plan;?></h4>
 							</div>
 							<div class="col-xxl-8 col-xl-8">
-								<h3 class="gt-text-orange"><?php echo $lang['Duration']; ?></h3>
+								<h3 class="text-red"><?php echo $lang['Duration']; ?></h3>
 								<h4><?php echo $getnew_data->plan_duration.' Days';?></h4>
 							</div>
 						</div>
 					</div>
 					<?php } if($status == 'fail'){ ?>
-					<div class="container gt-margin-top-20">
+					<div class="container margin-top-20">
 						<div class="alert clearfix inPaymentFail" role="alert">
 							<h2 class="text-center inPageTitle fontMerriWeather inThemeRed"><?php echo $lang['Payment Not Successful']; ?> !</h2>
 							<h5 class="text-center inPageSubTitle">
 								<?php echo $lang['Payment not successful.If payment is debited please contact us']; ?>.
 							</h5>
 							<div class="col-xxl-16 col-xl-16 text-center gt-margin-top-10 gt-margin-bottom-20">
-								<a href="myHome" class="btn gt-btn-darkblue inBtnTheme-2">
+								<a href="myHome" class="btn btn-darkblue inBtnTheme-2">
 									<?php echo $lang['Go To Home']; ?>
 								</a>
 							</div>    

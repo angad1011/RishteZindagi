@@ -90,7 +90,7 @@ $row1=mysqli_fetch_object($fetch);
 								?>
 								<div class="row">
 									<div class="col-xxl-3 col-xxl-offset-13">
-										<a class="btn gt-btn-darkblue btn-block" href="register-confirm-password"> <?php echo $lang['Skip']; ?> <i class="fa fa-caret-right"></i></a>
+										<a class="btn btn-darkblue btn-block" href="register-confirm-password"> <?php echo $lang['Skip']; ?> <i class="fa fa-caret-right"></i></a>
 									</div>
 								</div>
 								<?php } ?>
@@ -112,11 +112,11 @@ $row1=mysqli_fetch_object($fetch);
 											<input type="file" placeholder="Select File" class="gt-form-control" name="attachment"/>
 											<p><?php echo $lang['Note']; ?>:&nbsp;&nbsp;<?php echo $lang['']; ?>.</p>
 										</div>
-										<input type="Submit" value="Upload" name="submit" class="btn gt-btn-darkblue inIndexRegBtn">
+										<input type="Submit" value="Upload" name="submit" class="btn btn-darkblue inIndexRegBtn">
 										<p class="mt-10"><?php echo $lang['Select image click on']; ?> <b><?php echo $lang['Upload']; ?></b> <?php echo $lang['button and then click on']; ?> <b><?php echo $lang['Continue']; ?></b> <?php echo $lang['button to upload ID Proof']; ?>.</p>
 									</form>
 								 	<div class="col-xxl-16 text-center gt-margin-top-30">
-										<a href="register-confirm-password" class="btn gt-btn-orange inIndexRegBtn inPhotoUploadBtn mt-20"><?php echo $lang['Continue']; ?></a>
+										<a href="register-confirm-password" class="btn btn-darkblue inIndexRegBtn inPhotoUploadBtn mt-20"><?php echo $lang['Continue']; ?></a>
 								 	</div>
 								</div>
 							</div>

@@ -56,14 +56,14 @@
 							</div>
 						</div>	
 					</div>
-					<div class="container gt-margin-top-20">
+					<div class="container margin-top-20">
                     	<div class="row">
                         	<div class="col-xxl-16 col-xl-16 col-md-16 col-sm-16 col-lg-16">
                             	<div class="gt-panel gt-panel-default inCurrentPlan">
                                 	<div class="gt-panel-head">
                                     	<div class="gt-panel-title">
                                         	<h4 class="gt-margin-bottom-0 gt-margin-top-0">
-                                            	<span class="gt-text-orange"> 
+                                            	<span class="text-red"> 
                                                     <?php echo isset($get_plan_data->p_plan) ? $get_plan_data->p_plan : 'none'; ?>
                                                 </span>
                                         	</h4>
@@ -72,7 +72,7 @@
                                 	<div class="gt-panel-body">
                                     	<div class="row">
                                         	<div class="col-xxl-3 col-xl-3 col-lg-4 col-sm-16 col-md-8 col-xs-16 gt-margin-bottom-20 text-center">
-                                            	<h4 class="gt-text-orange"><?php echo $lang['Duration']; ?></h4>
+                                            	<h4 class="text-red"><?php echo $lang['Duration']; ?></h4>
                                             	<p class="gt-margin-bottom-5">
                                                     <b>
                                                         <?php echo isset($get_plan_data->plan_duration) ? $get_plan_data->plan_duration . ' Days' : 0; ?>
@@ -99,7 +99,7 @@
                                             	</p>
                                         	</div>
                                         	<div class="col-xxl-3 col-xl-3 col-lg-4 col-sm-16 col-md-8 col-xs-16 gt-margin-bottom-20 text-center">
-                                            	<h4 class="gt-text-orange"><?php echo $lang['Messages']; ?></h4>
+                                            	<h4 class="text-red"><?php echo $lang['Messages']; ?></h4>
 												<p class="gt-margin-bottom-5">
                                                     <b>
                                                         <?php echo isset($get_plan_data->p_msg) ? $get_plan_data->p_msg : "none"; ?>
@@ -112,7 +112,7 @@
                                                 </p>
                                         	</div>
                                         	<div class="col-xxl-3 col-xl-3 col-lg-4 col-sm-16 col-md-8 col-xs-16 gt-margin-bottom-20 text-center">
-												<h4 class="gt-text-orange"><?php echo $lang['Contact View']; ?></h4>
+												<h4 class="text-red"><?php echo $lang['Contact View']; ?></h4>
 												<p class="gt-margin-bottom-5">
                                                     <b>
                                                         <?php echo isset($get_plan_data->p_no_contacts) ? $get_plan_data->p_no_contacts : 0; ?>
@@ -125,7 +125,7 @@
                                             	</p>
                                         	</div>
 											<div class="col-xxl-3 col-xl-3 col-lg-4 col-sm-16 col-md-8 col-xs-16 gt-margin-bottom-20 text-center">
-												<h4 class="gt-text-orange"><?php echo $lang['Live Chat']; ?></h4>
+												<h4 class="text-red"><?php echo $lang['Live Chat']; ?></h4>
 												<p class="gt-margin-bottom-5">
                                                     <b>
                                                         <?php echo isset($get_plan_data->chat) ? $get_plan_data->chat : 'No'; ?>
@@ -138,7 +138,7 @@
                                                 </p>
 											</div>
                                         	<div class="col-xxl-3 col-xl-3 col-lg-4 col-sm-16 col-md-8 col-xs-16 gt-margin-bottom-20 text-center">
-												<h4 class="gt-text-orange"><?php echo $lang['Profile View']; ?></h4>
+												<h4 class="text-red"><?php echo $lang['Profile View']; ?></h4>
                                             	<p class="gt-margin-bottom-5">
                                                     <b>
                                                         <?php echo isset($get_plan_data->profile) ? $get_plan_data->profile : 0; ?>

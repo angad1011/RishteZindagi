@@ -130,7 +130,7 @@
                             if (isset($_SESSION['user_id'])) {
                                 if (isset($sql_exp) && $sql_exp->receiver_response == 'Pending') {
                         ?>
-                        <a  title="Send Reminder" onClick="sendreminder(<?php echo $sql_exp->ei_id ?>);" id="reminder<?php echo $sql_exp->ei_id; ?>" class="btn gt-btn-orange btn-block">
+                        <a  title="Send Reminder" onClick="sendreminder(<?php echo $sql_exp->ei_id ?>);" id="reminder<?php echo $sql_exp->ei_id; ?>" class="btn btn-darkblue btn-block">
                             <i class="fas fa-bell gt-margin-right-5"></i><?php echo $lang['Send Reminder']; ?>
                         </a>
                         <?php }elseif(isset($sql_exp) && $sql_exp->receiver_response=='Accept'){ ?>
@@ -138,7 +138,7 @@
                         <?php }elseif(isset($sql_exp) && $sql_exp->receiver_response=='Reject'){ ?>
                         <h5 class="interestRejected">Interest Rejected</h5>
                         <?php } else { ?>	
-                        <a data-toggle="modal" data-target="#myModal1" title="Send Interest" onclick="ExpressInterest('<?php echo $Row->matri_id; ?>')" class="btn gt-btn-orange btn-block">
+                        <a data-toggle="modal" data-target="#myModal1" title="Send Interest" onclick="ExpressInterest('<?php echo $Row->matri_id; ?>')" class="btn btn-darkblue btn-block">
                             <i class="fas fa-heart gt-margin-right-5"></i><?php echo $lang['Send Interest']; ?>
                         </a>
                         <?php } } ?>

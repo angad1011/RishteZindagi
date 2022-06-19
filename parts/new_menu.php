@@ -56,7 +56,7 @@
                                     
                                 </ul>
                                 <ul class="nav navbar-nav navbar-right">
-                                    <a href="login" class="btn gt-btn-darkblue">Login / Signup</a>
+                                    <a href="login" class="btn btn-darkblue">Login / Signup</a>
                                 </ul>
                             </div>
                         </div>

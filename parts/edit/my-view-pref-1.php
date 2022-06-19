@@ -136,7 +136,7 @@ $row_field=mysqli_fetch_object($SQL_STATEMENT_FIELD);
     <span class="pull-left">
         <i class="fa fa-file"></i><?php echo $lang['Basic Preferences']; ?>
     </span>
-    <a class="pull-right btn gt-btn-orange" onClick="return part_edit_1();">
+    <a class="pull-right btn btn-darkblue" onClick="return part_edit_1();">
         <i class="fas fa-pencil-alt fa-fw"></i>
         <font class="gt-margin-left-5"><?php echo $lang['EDIT']; ?></font>
     </a>

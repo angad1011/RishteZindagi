@@ -136,7 +136,7 @@ $headers  = 'MIME-Version: 1.0' . "\r\n";
     			<div class="container">
                 	<h2 class="text-center">Contact to admin</h2>
                 	<p class="text-center">contact to admin for any query or ask for free membership plan</p>
-    				<div class="row gt-margin-top-20">
+    				<div class="row margin-top-20">
         				
                 		<div class="col-xxl-8 col-xl-8 col-xxl-offset-4 col-xl-offset-4">
                 			<div class="row">
@@ -168,7 +168,7 @@ $headers  = 'MIME-Version: 1.0' . "\r\n";
                                                 		<textarea required  class="gt-form-control" rows="5" id="description" name="description" placeholder="Enter Your Query Here"></textarea>
                                             		</div>
                                             		<div class="form-group text-center">
-                                            			<button type="submit" name="sub_contact" id="contact-btn" class="btn gt-btn-darkblue btn-lg">
+                                            			<button type="submit" name="sub_contact" id="contact-btn" class="btn btn-darkblue btn-lg">
                                                 			Submit
                                                 		</button>
                                             		</div>

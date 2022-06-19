@@ -74,7 +74,7 @@
 							<?php }?>
 							
 							<div class="col-xs-16 text-center mt-20">
-								<a href="index" class="btn gt-btn-darkblue pt-15 pb-15 pl-20 pr-20">
+								<a href="index" class="btn btn-darkblue pt-15 pb-15 pl-20 pr-20">
 									<?php echo $lang['Back to home']; ?>
 								</a>
 							</div>
